@@ -5,16 +5,18 @@ import org.openqa.selenium.WebElement;
 import io.appium.java_client.AppiumDriver;
 
 public class KeyAction extends AbstractAction {
+	
+	String keys;
 
-	public KeyAction(AppiumDriver driver) {
+	public KeyAction(AppiumDriver driver, String keys) {
 		super(driver);
-		// TODO Auto-generated constructor stub
+		this.keys = keys;
 	}
 
 	@Override
 	public String run(AppiumDriver driver, WebElement element) {
-		// TODO Auto-generated method stub
-		return null;
+		element.sendKeys(this.keys);
+		return RESULT_PASS;
 	}
 
 }

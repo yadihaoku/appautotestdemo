@@ -1,20 +1,30 @@
 package com.hxj.lear.actions;
 
-import org.openqa.selenium.WebElement;
+import java.util.concurrent.TimeUnit;
 
-import io.appium.java_client.AppiumDriver;
+import com.hxj.lear.utils.Finder;
 
-public class SleepAction extends AbstractAction {
-
-	public SleepAction(AppiumDriver driver) {
-		super(driver);
-		// TODO Auto-generated constructor stub
+public class SleepAction implements Action {
+	
+	long timeInMs;
+	SleepAction(long times){
+		this.timeInMs = times;
+	}
+	 
+	@Override
+	public String execute() {
+		try {
+			TimeUnit.MILLISECONDS.sleep(timeInMs);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		return RESULT_PASS;
 	}
 
+
 	@Override
-	public String run(AppiumDriver driver, WebElement element) {
-		// TODO Auto-generated method stub
-		return null;
+	public void setFinder(Finder finder) {
+		
 	}
 
 }

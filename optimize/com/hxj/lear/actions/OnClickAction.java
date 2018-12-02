@@ -4,6 +4,11 @@ import org.openqa.selenium.WebElement;
 
 import io.appium.java_client.AppiumDriver;
 
+/**
+ * 
+ * @author YanYadi
+ *extends
+ */
 class OnClickAction extends AbstractAction{
 
 	public OnClickAction(AppiumDriver driver) {

@@ -18,15 +18,17 @@ public class FinderFactory {
 	
 	/**
 	 * 依据 名称，返回查找器对象
-	 * @param finderName
+	 * @param locationMode
 	 * @return
 	 */
-	public final static Finder make(String finderName){
+	public final static Finder make(String locationMode, String selector){
 		
-		if(finderName == null)return null;
-		if(sFinders.containsKey(finderName)){
+		if(locationMode == null)return null;
+		if(sFinders.containsKey(locationMode)){
 			try {
-				return sFinders.get(finderName).newInstance();
+				BaseFinder finder = (BaseFinder) sFinders.get(locationMode).newInstance();
+				finder.setSelector(selector);
+				return finder;
 			} catch (InstantiationException e) {
 				e.printStackTrace();
 			} catch (IllegalAccessException e) {
@@ -34,7 +36,7 @@ public class FinderFactory {
 			}
 			return null;
 		}else{
-			throw new UnsupportedOperationException("不支持的查询方式-> " + finderName);
+			throw new UnsupportedOperationException("不支持的查询方式-> " + locationMode);
 		}
 		
 		
@@ -45,21 +47,30 @@ public class FinderFactory {
 		sFinders.put("By.name",ByIdFinder.class);
 	}
  
+	static abstract class BaseFinder implements Finder{
+		String selector;
+		BaseFinder(String selector){
+			this.selector = selector;
+		}
+		BaseFinder(){
+		}
+		void setSelector(String selector){
+			this.selector = selector;
+		}
+		protected String getSelector(){
+			return this.selector;
+		}
+	}
+	
 	/**
 	 * 通过 byName 查询
 	 * @author YanYadi
 	 *
 	 */
-	static class ByNameFinder implements Finder{
-		
-		String name;
-		ByNameFinder(String name){
-			this.name = name;
-		}
-
+	static class ByNameFinder extends BaseFinder{
 		@Override
 		public WebElement getByDriver(AppiumDriver driver) {
-			return driver.findElement(By.name(name));
+			return driver.findElement(By.name(getSelector()));
 		}
 		
 	}
@@ -68,15 +79,10 @@ public class FinderFactory {
 	 * @author YanYadi
 	 *
 	 */
-	static class ByIdFinder implements Finder{
-
-		String id;
-		public ByIdFinder(String id) {
-			this.id = id;
-		}
+	static class ByIdFinder extends BaseFinder{
 		@Override
 		public WebElement getByDriver(AppiumDriver driver) {
-			return driver.findElement(By.id(id));
+			return driver.findElement(By.id(getSelector()));
 		}
 	}
  
