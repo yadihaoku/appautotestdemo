@@ -12,8 +12,10 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import jxl.read.biff.BiffException;
 import logo.module.Config;
@@ -25,6 +27,7 @@ import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.poifs.filesystem.POIFSFileSystem;
+import org.apache.poi.ss.usermodel.Row;
 
 public class AutoTestExcelFile
 {
@@ -34,6 +37,55 @@ public class AutoTestExcelFile
 	private HSSFRow row;
 	private HSSFCell cell;
 	ElementExist el = new ElementExist();
+
+	/**
+	 * 读取excel ，解析为 Map<Integer, List<String>> 的格式。
+	 * @param is
+	 * @param sheetName  excel sheet名称
+	 * @return
+	 */
+	public HashMap<Integer, List<String>> readExcelToMap(InputStream is, String sheetName) //获取excel内容              
+	{
+		
+		HashMap<Integer, List<String>> content = new HashMap<Integer, List<String> >();
+		HSSFWorkbook workbook = null;
+		try {
+			workbook = new HSSFWorkbook(new POIFSFileSystem(is));
+		} catch (IOException e) {
+			e.printStackTrace();
+			//异常时，返回，后续代码，不再执行。
+			return content;
+		}
+		//获取 sheet 页
+		HSSFSheet sheet = workbook.getSheet(sheetName);
+		
+		//获取 逻辑最后一个行数
+		int rowNum = sheet.getLastRowNum();
+		
+		//如果一行数据，也没有。立即返回 。
+		if(rowNum < 1)return content;
+		
+		//以第一行为准，获取 第一行的最大 列数
+		int columnCount = sheet.getRow(0).getPhysicalNumberOfCells();
+		
+		for(int r = 0; r <= rowNum; r++){
+			HSSFRow	row = sheet.getRow(r);
+			
+			ArrayList<String> list = new ArrayList<>(); 
+			content.put(r, list);
+			//读取 一行的数据
+			for(int colIndex= 0; colIndex < columnCount; colIndex++) {
+				HSSFCell cell = row.getCell(colIndex);
+				if(cell == null) {
+					list.add("");
+				}else{
+					list.add( getStringCellValue (row.getCell(colIndex)));
+				}
+			}
+		}
+		
+		return content;
+	}
 
 	public String[] readExcelTitleContent(InputStream is)//获取excel中标题内容                 
 	{
@@ -100,8 +152,7 @@ public class AutoTestExcelFile
 				strCell = cell.getStringCellValue();
 				break;
 			case HSSFCell.CELL_TYPE_NUMERIC:
-				String strCellNumber = String.valueOf(cell.getNumericCellValue());
-				DecimalFormat df = new DecimalFormat("0");
+				DecimalFormat df = new DecimalFormat("##");
 				strCell = df.format(cell.getNumericCellValue());
 				break;
 			case HSSFCell.CELL_TYPE_BOOLEAN:
@@ -111,6 +162,7 @@ public class AutoTestExcelFile
 				strCell = "";
 				break;
 			default:
+				System.out.println(cell.getCellType());
 				strCell = "";
 				break;
 			}
@@ -265,6 +317,39 @@ public class AutoTestExcelFile
 		{
 			System.out.println(ex.getMessage());
 		}
+	}
+	
+	public static void main(String[] args) throws Exception{
+		
+		final String filePath = "android_testcase3_3.xls";
+		FileInputStream fis = new FileInputStream(filePath);
+		HSSFWorkbook workbook  = new HSSFWorkbook(new POIFSFileSystem(fis));
+		HSSFSheet sheet = workbook.getSheet(Config.getInstance().getCfg("My"));    
+		int rowNum = sheet.getLastRowNum();
+		
+		System.out.println("rowNum=" + rowNum);
+		System.out.println("phyRowNum=" + sheet.getPhysicalNumberOfRows());
+		
+		System.out.println("rowCotent=" + sheet.getRow(0).getCell(0).getStringCellValue());
+		System.out.println("rowCotent=" + sheet.getRow(1).getCell(0).getStringCellValue());
+		
+		System.out.println("row1 physical columns=" + sheet.getRow(0).getPhysicalNumberOfCells());
+		System.out.println("row1 last columns=" + sheet.getRow(0).getLastCellNum());
+		
+		AutoTestExcelFile atef = new AutoTestExcelFile();
+		view( atef.readExcelToMap(new FileInputStream(filePath), "我") );
+	}
+	/**
+	 * 查看读取到的 excel 数据。
+	 * @param map
+	 */
+	static void view(HashMap<Integer, List<String>> map){
+		Set<Integer> keyset = map.keySet();
+		
+		for(Integer key : keyset){
+			System.out.println(key + " -> :"  + map.get(key));
+		}
+		
 	}
 
 }
