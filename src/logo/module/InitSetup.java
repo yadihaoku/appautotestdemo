@@ -3,12 +3,13 @@
  */
 package logo.module;
 
-import io.appium.java_client.AppiumDriver;
-
 import java.io.File;
 import java.net.MalformedURLException;
+
 import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
+
+import io.appium.java_client.AppiumDriver;
 
 public class InitSetup 
 {
@@ -16,8 +17,6 @@ public class InitSetup
 	{ 
 		if (Config.CONFIG_FILE.equals("android_config.properties"))  
 		{
-			final File appDir = new File(System.getProperty("user.dir"), "app");
-			final File app = new File(appDir, Config.getInstance().getCfg("appDir"));
 			capabilities.setCapability("app", Config.getInstance().getCfg("app"));                               
 			capabilities.setCapability(CapabilityType.BROWSER_NAME, "");
 			capabilities.setCapability("platformVersion", Config.getInstance().getCfg("platformVersion"));        
@@ -25,9 +24,10 @@ public class InitSetup
 			capabilities.setCapability("deviceName", Config.getInstance().getCfg("deviceName"));                  
 			capabilities.setCapability("appPackage", Config.getInstance().getCfg("appPackage"));                  
 			capabilities.setCapability("appActivity", Config.getInstance().getCfg("appActivity"));                
-			capabilities.setCapability("unicodeKeyboard", Config.getInstance().getCfg("unicodeKeyboard"));        
-			capabilities.setCapability("resetKeyboard", Config.getInstance().getCfg("resetKeyboard"));            
-			capabilities.setCapability("newCommandTimeout", Config.getInstance().getCfg("newCommandTimeout"));    
+			capabilities.setCapability("unicodeKeyboard", Boolean.parseBoolean( Config.getInstance().getCfg("unicodeKeyboard") ));        
+			capabilities.setCapability("resetKeyboard", Boolean.parseBoolean( Config.getInstance().getCfg("resetKeyboard" )));            
+			capabilities.setCapability("newCommandTimeout", Config.getInstance().getCfg("newCommandTimeout"));
+			capabilities.setCapability("noReset", true);
 		} else if (Config.CONFIG_FILE.equals("ios_config.properties"))
 		{
 			final File appDir = new File(System.getProperty("user.dir"), "app");

@@ -1,0 +1,121 @@
+<html>
+<head>
+<title>TestNG:  app_AutoLogin_Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>app_AutoLogin_Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Dec 02 22:58:02 CST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>56 seconds (56571 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='logo.test.AutoLoginTest.My_Login_001()'><b>My_Login_001</b><br>Test class: logo.test.AutoLoginTest<br/>
+<a href="#Output-131872530" onClick='toggleBox("Output-131872530", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-131872530" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-131872530">
+Reporter:2018-12-02 22:58:10===>filePath = android_testcase3_3.xls  sheetName = 我<br/>
+Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.id, com.test.life:id/login_btn, click, , , , ]<br/>
+Reporter:2018-12-02 22:58:10===>locationMode = By.id selector = com.test.life:id/login_btn<br/>
+Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-002, 我的－首页, By.id, com.test.life:id/phone_edit1, sendkeys, 13798359580, , , ]<br/>
+Reporter:2018-12-02 22:58:10===>locationMode = By.id selector = com.test.life:id/phone_edit1<br/>
+Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-005, 我的－用户名文本框, By.id, com.test.life:id/password_edit1, sendkeys, test123456, , , ]<br/>
+Reporter:2018-12-02 22:58:10===>locationMode = By.id selector = com.test.life:id/password_edit1<br/>
+Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-006, 我的－登录按钮, By.id, com.test.life:id/login_btn, click, , , , ]<br/>
+Reporter:2018-12-02 22:58:10===>locationMode = By.id selector = com.test.life:id/login_btn<br/>
+Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.name, 首页, click, , , , ]<br/>
+Reporter:2018-12-02 22:58:10===>locationMode = By.name selector = 首页<br/>
+Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-002, 我的－商品管理, By.name, 商品管理, click, , , , ]<br/>
+Reporter:2018-12-02 22:58:10===>locationMode = By.name selector = 商品管理<br/>
+Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-003, 我的－历史商品, By.name, 历史商品, click, , , , ]<br/>
+Reporter:2018-12-02 22:58:10===>locationMode = By.name selector = 历史商品<br/>
+Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-004, 我的－分类, By.name, 分类, click, , , , ]<br/>
+Reporter:2018-12-02 22:58:10===>locationMode = By.name selector = 分类<br/>
+Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-005, 我的－销售中, By.name, 销售中, click, , , 8000, ]<br/>
+Reporter:2018-12-02 22:58:10===>locationMode = By.name selector = 销售中<br/>
+Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-006, 我的－向下滑动, By.id, com.test.life:id/layout, DownPage, , , 8000, ]<br/>
+Reporter:2018-12-02 22:58:10===>locationMode = By.id selector = com.test.life:id/layout<br/>
+Reporter:2018-12-02 22:58:10===>byIdcom.test.life:id/login_btn<br/>
+Reporter:2018-12-02 22:58:11===>byIdcom.test.life:id/phone_edit1<br/>
+Reporter:2018-12-02 22:58:21===>byIdcom.test.life:id/password_edit1<br/>
+Reporter:2018-12-02 22:58:28===>byIdcom.test.life:id/login_btn<br/>
+Reporter:2018-12-02 22:58:31===>byName首页<br/>
+Reporter:2018-12-02 22:58:37===>byName商品管理<br/>
+Reporter:2018-12-02 22:58:39===>byName历史商品<br/>
+Reporter:2018-12-02 22:58:43===>byName分类<br/>
+Reporter:2018-12-02 22:58:46===>byName销售中<br/>
+Reporter:2018-12-02 22:58:55===>byIdcom.test.life:id/layout<br/>
+</div>
+</td>
+<td></td>
+<td>46</td>
+<td>logo.test.AutoLoginTest@72d818d1</td></tr>
+</table><p>
+</body>
+</html>

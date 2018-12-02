@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import org.apache.poi.hssf.usermodel.HSSFSheet;
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 
 import com.hxj.lear.actions.Action;
 import com.hxj.lear.actions.ActionFactory;
@@ -28,7 +29,7 @@ public class AutoTestCaseFromFile {
 	
 	
 	AutoTestExcelFile excelReader = new AutoTestExcelFile();
-	AutoLogger log = AutoLogger.getLogger(AutoTestCaseFromFile.class);//AutoTestCaseFromFile.class打日志
+	AutoLogger log = AutoLogger.getLogger(AutoTestCaseFromFile.class);//AutoTestCaseFromFile.class打
 	
 	/**
 	 * 按模块ID 执行测试用例
@@ -54,8 +55,18 @@ public class AutoTestCaseFromFile {
 			ActionWithFileMapping mapping = ActionWithFileMapping.parseHeadRow(map.get(titleRowIndex));
 			//筛选编号为 moduleId 的行,并生成 Action
 			List<ActionWrapper> actions = convertMap2ListActions(map, moduleId, mapping, driver);
-			//执行动作
-			runAllActions(actions, excelReader.getSheet(excelFilePath, sheetName));
+			//执行动作，并保存执行结果
+			
+			HSSFWorkbook workBook = excelReader.getWorkBook(excelFilePath);
+			try{
+				runAllActions(actions, workBook.getSheet(sheetName));
+			}catch(Exception e){
+				e.printStackTrace();
+			}finally{
+				if(workBook != null){
+					excelReader.saveWorkBook(workBook);
+				}
+			}
 		}
 	}
 	/**
@@ -78,6 +89,7 @@ public class AutoTestCaseFromFile {
 		for(int i=0; i < endRows; i++){
 			List<String> row = map.get(i);
 			if(moduleId.equals(row.get(testCaseNoIndex).trim())){
+				log.log("parse2Action" + row.toString());
 				actions.add(new ActionWrapper(parse2Action(row, mapping, driver) , i, mapping.testResultIndex()));
 			}
 		}
@@ -111,6 +123,7 @@ public class AutoTestCaseFromFile {
 		final String sleep = row.get(mapping.sleepIndex());
 		final String selector =row.get(mapping.selectorIndex());
 		
+		log.log("locationMode = " + locationMode + " selector = " + selector);
 		return ActionFactory.build(actionName, driver, locationMode,selector, data, sleep );
 		
 	}

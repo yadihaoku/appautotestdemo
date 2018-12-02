@@ -87,6 +87,28 @@ public class AutoTestExcelFile {
 		return sheet;
 	}
 
+	public HSSFWorkbook getWorkBook(InputStream is) {
+		HSSFWorkbook workbook = null;
+		try {
+			workbook = new HSSFWorkbook(new POIFSFileSystem(is));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return workbook;
+	}
+	public HSSFWorkbook getWorkBook(String filePath) {
+		File file = new File(filePath);
+		if (!file.exists())
+			throw new RuntimeException(filePath + " 不存在!");
+
+		HSSFWorkbook workbook = null;
+		try {
+			workbook = new HSSFWorkbook(new POIFSFileSystem(new FileInputStream(file)));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return workbook;
+	}
 	/**
 	 * 读取excel ，解析为 Map<Integer, List<String>> 的格式。
 	 * 
@@ -265,7 +287,7 @@ public class AutoTestExcelFile {
 		return content;
 	}
 
-	private void saveWorkBook(HSSFWorkbook wb) {
+	public void saveWorkBook(HSSFWorkbook wb) {
 		try {
 			FileOutputStream fileOut = new FileOutputStream(Config.getInstance().getCfg("filePath"));
 			wb.write(fileOut);

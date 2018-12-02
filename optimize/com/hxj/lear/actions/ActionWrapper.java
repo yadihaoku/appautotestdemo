@@ -26,6 +26,7 @@ public class ActionWrapper{
 		HSSFRichTextString hts = new HSSFRichTextString(result);
 		sheet.getRow(rowIndex).getCell(resultCellIndex).setCellValue(hts);
 		
+		
 		return result;
 	}
 

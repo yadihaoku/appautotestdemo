@@ -17,6 +17,7 @@ import com.hxj.lear.AutoTestCaseFromFile;
 
 import io.appium.java_client.AppiumDriver;
 import jxl.read.biff.BiffException;
+import logo.file.AutoTestCaseID;
 import logo.file.AutoTestExcelFile;
 import logo.module.InitSetup;
 
@@ -25,7 +26,7 @@ public class AutoLoginTest
 	AppiumDriver driver;                                          
 	AutoTestExcelFile fesm = new AutoTestExcelFile();             
 	InitSetup is = new InitSetup();                               
-	//AutoTestCaseID tcId = new AutoTestCaseID();
+	AutoTestCaseID tcId = new AutoTestCaseID();
 	AutoTestCaseFromFile acf = new AutoTestCaseFromFile();
 
 	@BeforeClass
@@ -37,13 +38,18 @@ public class AutoLoginTest
 	@BeforeMethod
 	public void beforeMethod() throws MalformedURLException, InterruptedException 
 	{
+		try{
 		driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"), is.InitSetupCFG(new DesiredCapabilities()));
+		}catch(Exception e){
+			e.printStackTrace();
+			throw e;
+		}
 	}
 
 	@Test
 	public void My_Login_001() throws InterruptedException, BiffException, IOException 
 	{
-		//tcId.TestcaseId(driver, "My_Login_001");
+//		tcId.TestcaseId(driver, "My_Login_001");
 		acf.testByModuleId(driver, "My_Login_001");
 	}
 

@@ -43,27 +43,23 @@ public abstract class AbstractAction implements Action {
 	public String execute() {
 		WebElement element = mFinder.getByDriver(mDriver);
 		if (element != null) {
-			try {
-				if (mNextActions != null) {
+			final String result = run(mDriver, element);
+			if(result != RESULT_PASS)
+				return result;
+		
+			if (mNextActions != null) {
 					ArrayList<Action> actions = new ArrayList<>();
-					actions.add(this);
 					actions.addAll(Arrays.asList(mNextActions));
 
-					for (Action action : actions) {
+				for (Action action : actions) {
 						// 如果有一个 动作，执行失败。则全部认为失败。
 						if (!RESULT_PASS.equals(action.execute()))
 							return RESULT_FAILURE;
-					}
-
-					return RESULT_PASS;
-				} else {
-					return run(mDriver, element);
 				}
-			} catch (Exception e) {
-				e.printStackTrace();
-				//发生的任何异常，都认为是失败。
-				return RESULT_FAILURE;
+
+				return RESULT_PASS;
 			}
+			return result;
 		} else {
 			return RESULT_FAILURE;
 		}

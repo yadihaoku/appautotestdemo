@@ -81,7 +81,7 @@ public class ActionWithFileMapping {
 			String head = row.get(i).trim();
 			mapping.put(head, i);
 		}
-		
+		System.out.println(mapping);
 		return new ActionWithFileMapping(mapping);
 	}
 }

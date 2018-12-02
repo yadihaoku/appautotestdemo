@@ -37,7 +37,7 @@ public class ActionFactory {
 		//设置 Finder
 		actionBean.setFinder(FinderFactory.make(locationMode, selector));
 		//如果有 sleep ，则 sleep 设置为一个 Action
-		if(sleep != null){
+		if(sleep != null && sleep.trim().length() > 0){
 			Action[] nextActions = new Action[]{
 					new SleepAction(Long.parseLong(sleep))
 			};

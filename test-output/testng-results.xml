@@ -1,29 +1,215 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>filePath = android_testcase3_3.xls  sheetName = 我]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.id, com.test.life:id/login_btn, click, , , , ]]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.id selector = com.test.life:id/login_btn]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-002, 我的－首页, By.id, com.test.life:id/phone_edit1, sendkeys, 13798359580, , , ]]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.id selector = com.test.life:id/phone_edit1]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-005, 我的－用户名文本框, By.id, com.test.life:id/password_edit1, sendkeys, test123456, , , ]]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.id selector = com.test.life:id/password_edit1]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-006, 我的－登录按钮, By.id, com.test.life:id/login_btn, click, , , , ]]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.id selector = com.test.life:id/login_btn]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.name, 首页, click, , , , ]]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.name selector = 首页]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-002, 我的－商品管理, By.name, 商品管理, click, , , , ]]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.name selector = 商品管理]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-003, 我的－历史商品, By.name, 历史商品, click, , , , ]]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.name selector = 历史商品]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-004, 我的－分类, By.name, 分类, click, , , , ]]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.name selector = 分类]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-005, 我的－销售中, By.name, 销售中, click, , , 8000, ]]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.name selector = 销售中]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-006, 我的－向下滑动, By.id, com.test.life:id/layout, DownPage, , , 8000, ]]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.id selector = com.test.life:id/layout]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:10===>byIdcom.test.life:id/login_btn]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:11===>byIdcom.test.life:id/phone_edit1]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:21===>byIdcom.test.life:id/password_edit1]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:28===>byIdcom.test.life:id/login_btn]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:31===>byName首页]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:37===>byName商品管理]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:39===>byName历史商品]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:43===>byName分类]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:46===>byName销售中]]>
+    </line>
+    <line>
+      <![CDATA[Reporter:2018-12-02 22:58:55===>byIdcom.test.life:id/layout]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="80262" started-at="2016-08-15T08:33:21Z" finished-at="2016-08-15T08:34:41Z">
+  <suite name="Suite" duration-ms="56571" started-at="2018-12-02T14:58:02Z" finished-at="2018-12-02T14:58:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="80262" started-at="2016-08-15T08:33:21Z" finished-at="2016-08-15T08:34:41Z">
+    <test name="app_AutoLogin_Test" duration-ms="56571" started-at="2018-12-02T14:58:02Z" finished-at="2018-12-02T14:58:59Z">
       <class name="logo.test.AutoLoginTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:logo.test.AutoLoginTest@55816088]" name="beforeClass" is-config="true" duration-ms="174" started-at="2016-08-15T16:33:21Z" finished-at="2016-08-15T16:33:21Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:logo.test.AutoLoginTest@72d818d1]" name="beforeClass" is-config="true" duration-ms="132" started-at="2018-12-02T22:58:02Z" finished-at="2018-12-02T22:58:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:logo.test.AutoLoginTest@55816088]" name="beforeMethod" is-config="true" duration-ms="11288" started-at="2016-08-15T16:33:21Z" finished-at="2016-08-15T16:33:33Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:logo.test.AutoLoginTest@72d818d1]" name="beforeMethod" is-config="true" duration-ms="7233" started-at="2018-12-02T22:58:03Z" finished-at="2018-12-02T22:58:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="My_Login_001()[pri:0, instance:logo.test.AutoLoginTest@55816088]" name="My_Login_001" duration-ms="65866" started-at="2016-08-15T16:33:33Z" finished-at="2016-08-15T16:34:39Z">
+        <test-method status="PASS" signature="My_Login_001()[pri:0, instance:logo.test.AutoLoginTest@72d818d1]" name="My_Login_001" duration-ms="46900" started-at="2018-12-02T22:58:10Z" finished-at="2018-12-02T22:58:57Z">
           <reporter-output>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>filePath = android_testcase3_3.xls  sheetName = 我]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.id, com.test.life:id/login_btn, click, , , , ]]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.id selector = com.test.life:id/login_btn]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-002, 我的－首页, By.id, com.test.life:id/phone_edit1, sendkeys, 13798359580, , , ]]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.id selector = com.test.life:id/phone_edit1]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-005, 我的－用户名文本框, By.id, com.test.life:id/password_edit1, sendkeys, test123456, , , ]]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.id selector = com.test.life:id/password_edit1]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-006, 我的－登录按钮, By.id, com.test.life:id/login_btn, click, , , , ]]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.id selector = com.test.life:id/login_btn]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.name, 首页, click, , , , ]]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.name selector = 首页]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-002, 我的－商品管理, By.name, 商品管理, click, , , , ]]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.name selector = 商品管理]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-003, 我的－历史商品, By.name, 历史商品, click, , , , ]]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.name selector = 历史商品]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-004, 我的－分类, By.name, 分类, click, , , , ]]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.name selector = 分类]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-005, 我的－销售中, By.name, 销售中, click, , , 8000, ]]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.name selector = 销售中]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>parse2Action[My_Login_001, 正常登录, TS-006, 我的－向下滑动, By.id, com.test.life:id/layout, DownPage, , , 8000, ]]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>locationMode = By.id selector = com.test.life:id/layout]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:10===>byIdcom.test.life:id/login_btn]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:11===>byIdcom.test.life:id/phone_edit1]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:21===>byIdcom.test.life:id/password_edit1]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:28===>byIdcom.test.life:id/login_btn]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:31===>byName首页]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:37===>byName商品管理]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:39===>byName历史商品]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:43===>byName分类]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:46===>byName销售中]]>
+            </line>
+            <line>
+              <![CDATA[Reporter:2018-12-02 22:58:55===>byIdcom.test.life:id/layout]]>
+            </line>
           </reporter-output>
         </test-method> <!-- My_Login_001 -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:logo.test.AutoLoginTest@55816088]" name="afterMethod" is-config="true" duration-ms="2926" started-at="2016-08-15T16:34:39Z" finished-at="2016-08-15T16:34:41Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:logo.test.AutoLoginTest@72d818d1]" name="afterMethod" is-config="true" duration-ms="2297" started-at="2018-12-02T22:58:57Z" finished-at="2018-12-02T22:58:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- logo.test.AutoLoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- app_AutoLogin_Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -4,8 +4,11 @@ import java.util.HashMap;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.appium.java_client.AppiumDriver;
+import logo.log.AutoLogger;
 
 /**
  * 查找器工厂
@@ -15,6 +18,7 @@ import io.appium.java_client.AppiumDriver;
 public class FinderFactory {
 	
 	static HashMap<String ,Class< ? extends Finder>> sFinders;
+	static AutoLogger log = AutoLogger.getLogger(FinderFactory.class);
 	
 	/**
 	 * 依据 名称，返回查找器对象
@@ -43,8 +47,8 @@ public class FinderFactory {
 	}
 	static{
 		sFinders = new HashMap<>();
-		sFinders.put("By.id", ByNameFinder.class);
-		sFinders.put("By.name",ByIdFinder.class);
+		sFinders.put("By.id", ByIdFinder.class);
+		sFinders.put("By.name",ByNameFinder.class);
 	}
  
 	static abstract class BaseFinder implements Finder{
@@ -60,6 +64,7 @@ public class FinderFactory {
 		protected String getSelector(){
 			return this.selector;
 		}
+		
 	}
 	
 	/**
@@ -70,6 +75,9 @@ public class FinderFactory {
 	static class ByNameFinder extends BaseFinder{
 		@Override
 		public WebElement getByDriver(AppiumDriver driver) {
+			log.log("byName" + getSelector());
+			WebDriverWait wait = new WebDriverWait(driver, 18);
+			wait.until(ExpectedConditions.presenceOfElementLocated( By.name(getSelector()) ));
 			return driver.findElement(By.name(getSelector()));
 		}
 		
@@ -82,6 +90,9 @@ public class FinderFactory {
 	static class ByIdFinder extends BaseFinder{
 		@Override
 		public WebElement getByDriver(AppiumDriver driver) {
+			log.log("byId" + getSelector());
+			WebDriverWait wait = new WebDriverWait(driver, 18);
+			wait.until(ExpectedConditions.presenceOfElementLocated( By.id(getSelector()) ));
 			return driver.findElement(By.id(getSelector()));
 		}
 	}
