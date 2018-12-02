@@ -1,0 +1,291 @@
+2016-07-14 09:30:34,972 INFO main <clinit>(line:23)retrycount=3
+2016-07-14 09:30:34,975 INFO main <clinit>(line:24)sourceCodeDir=src
+2016-07-14 09:30:34,975 INFO main <clinit>(line:25)sourceCodeEncoding=UTF-8
+2016-07-14 09:30:49,669 INFO main onTestStart(line:44)My_Login_TC_001 Start
+2016-07-14 09:31:27,477 INFO main onTestFailure(line:26)My_Login_TC_001 Failure
+2016-07-14 09:31:29,727 INFO main retry(line:33)Retry for [My_Login_TC_001] on class [logo.test.MyLoginAutoTest] Retry 1 times
+2016-07-14 09:31:44,538 INFO main onTestStart(line:44)My_Login_TC_001 Start
+2016-07-14 09:32:23,195 INFO main onTestFailure(line:26)My_Login_TC_001 Failure
+2016-07-14 09:32:25,802 INFO main retry(line:33)Retry for [My_Login_TC_001] on class [logo.test.MyLoginAutoTest] Retry 2 times
+2016-07-14 09:32:38,735 INFO main onTestStart(line:44)My_Login_TC_001 Start
+2016-07-14 09:33:17,567 INFO main onTestFailure(line:26)My_Login_TC_001 Failure
+2016-07-14 09:33:19,762 INFO main retry(line:33)Retry for [My_Login_TC_001] on class [logo.test.MyLoginAutoTest] Retry 3 times
+2016-07-14 09:33:31,664 INFO main onTestStart(line:44)My_Login_TC_001 Start
+2016-07-14 09:34:09,047 INFO main onTestFailure(line:26)My_Login_TC_001 Failure
+2016-07-14 09:34:23,230 INFO main onTestStart(line:44)Home_Goods_TC_001 Start
+2016-07-14 09:34:42,858 INFO main onTestFailure(line:26)Home_Goods_TC_001 Failure
+2016-07-14 09:34:45,637 INFO main retry(line:33)Retry for [Home_Goods_TC_001] on class [logo.test.HomeAutoTest] Retry 1 times
+2016-07-14 09:34:58,718 INFO main onTestStart(line:44)Home_Goods_TC_001 Start
+2016-07-14 09:35:18,669 INFO main onTestFailure(line:26)Home_Goods_TC_001 Failure
+2016-07-14 09:35:21,483 INFO main retry(line:33)Retry for [Home_Goods_TC_001] on class [logo.test.HomeAutoTest] Retry 2 times
+2016-07-14 09:35:34,823 INFO main onTestStart(line:44)Home_Goods_TC_001 Start
+2016-07-14 09:35:54,812 INFO main onTestFailure(line:26)Home_Goods_TC_001 Failure
+2016-07-14 09:35:57,531 INFO main retry(line:33)Retry for [Home_Goods_TC_001] on class [logo.test.HomeAutoTest] Retry 3 times
+2016-07-14 09:36:11,364 INFO main onTestStart(line:44)Home_Goods_TC_001 Start
+2016-07-14 09:36:31,188 INFO main onTestFailure(line:26)Home_Goods_TC_001 Failure
+2016-07-14 09:36:48,283 INFO main onTestStart(line:44)Home_Orders_TC_002 Start
+2016-07-14 09:37:08,125 INFO main onTestFailure(line:26)Home_Orders_TC_002 Failure
+2016-07-14 09:37:11,631 INFO main retry(line:33)Retry for [Home_Orders_TC_002] on class [logo.test.HomeAutoTest] Retry 1 times
+2016-07-14 09:37:25,436 INFO main onTestStart(line:44)Home_Orders_TC_002 Start
+2016-07-14 09:37:44,727 INFO main onTestFailure(line:26)Home_Orders_TC_002 Failure
+2016-07-14 09:37:47,399 INFO main retry(line:33)Retry for [Home_Orders_TC_002] on class [logo.test.HomeAutoTest] Retry 2 times
+2016-07-14 09:38:00,404 INFO main onTestStart(line:44)Home_Orders_TC_002 Start
+2016-07-14 09:38:19,757 INFO main onTestFailure(line:26)Home_Orders_TC_002 Failure
+2016-07-14 09:38:22,483 INFO main retry(line:33)Retry for [Home_Orders_TC_002] on class [logo.test.HomeAutoTest] Retry 3 times
+2016-07-14 09:38:35,772 INFO main onTestStart(line:44)Home_Orders_TC_002 Start
+2016-07-14 09:38:55,784 INFO main onTestFailure(line:26)Home_Orders_TC_002 Failure
+2016-07-14 09:39:12,296 INFO main onTestStart(line:44)Home_Goods_TC_003 Start
+2016-07-14 09:39:31,686 INFO main onTestFailure(line:26)Home_Goods_TC_003 Failure
+2016-07-14 09:39:34,485 INFO main retry(line:33)Retry for [Home_Goods_TC_003] on class [logo.test.HomeAutoTest] Retry 1 times
+2016-07-14 09:39:47,512 INFO main onTestStart(line:44)Home_Goods_TC_003 Start
+2016-07-14 09:40:07,391 INFO main onTestFailure(line:26)Home_Goods_TC_003 Failure
+2016-07-14 09:40:09,980 INFO main retry(line:33)Retry for [Home_Goods_TC_003] on class [logo.test.HomeAutoTest] Retry 2 times
+2016-07-14 09:40:23,377 INFO main onTestStart(line:44)Home_Goods_TC_003 Start
+2016-07-14 09:40:43,243 INFO main onTestFailure(line:26)Home_Goods_TC_003 Failure
+2016-07-14 09:40:45,944 INFO main retry(line:33)Retry for [Home_Goods_TC_003] on class [logo.test.HomeAutoTest] Retry 3 times
+2016-07-14 09:40:59,388 INFO main onTestStart(line:44)Home_Goods_TC_003 Start
+2016-07-14 09:41:19,261 INFO main onTestFailure(line:26)Home_Goods_TC_003 Failure
+2016-07-14 09:41:35,073 INFO main onTestStart(line:44)Home_Goods_TC_004 Start
+2016-07-14 09:41:54,714 INFO main onTestFailure(line:26)Home_Goods_TC_004 Failure
+2016-07-14 09:41:57,403 INFO main retry(line:33)Retry for [Home_Goods_TC_004] on class [logo.test.HomeAutoTest] Retry 1 times
+2016-07-14 09:42:10,833 INFO main onTestStart(line:44)Home_Goods_TC_004 Start
+2016-07-14 09:42:30,233 INFO main onTestFailure(line:26)Home_Goods_TC_004 Failure
+2016-07-14 09:42:33,174 INFO main retry(line:33)Retry for [Home_Goods_TC_004] on class [logo.test.HomeAutoTest] Retry 2 times
+2016-07-14 09:42:46,871 INFO main onTestStart(line:44)Home_Goods_TC_004 Start
+2016-07-14 09:43:06,631 INFO main onTestFailure(line:26)Home_Goods_TC_004 Failure
+2016-07-14 09:43:09,663 INFO main retry(line:33)Retry for [Home_Goods_TC_004] on class [logo.test.HomeAutoTest] Retry 3 times
+2016-07-14 09:43:23,209 INFO main onTestStart(line:44)Home_Goods_TC_004 Start
+2016-07-14 09:43:43,064 INFO main onTestFailure(line:26)Home_Goods_TC_004 Failure
+2016-07-14 09:43:59,185 INFO main onTestStart(line:44)Home_Goods_TC_005 Start
+2016-07-14 09:44:18,780 INFO main onTestFailure(line:26)Home_Goods_TC_005 Failure
+2016-07-14 09:44:21,528 INFO main retry(line:33)Retry for [Home_Goods_TC_005] on class [logo.test.HomeAutoTest] Retry 1 times
+2016-07-14 09:44:35,107 INFO main onTestStart(line:44)Home_Goods_TC_005 Start
+2016-07-14 09:44:55,128 INFO main onTestFailure(line:26)Home_Goods_TC_005 Failure
+2016-07-14 09:44:57,795 INFO main retry(line:33)Retry for [Home_Goods_TC_005] on class [logo.test.HomeAutoTest] Retry 2 times
+2016-07-14 09:45:11,350 INFO main onTestStart(line:44)Home_Goods_TC_005 Start
+2016-07-14 09:45:31,121 INFO main onTestFailure(line:26)Home_Goods_TC_005 Failure
+2016-07-14 09:45:33,906 INFO main retry(line:33)Retry for [Home_Goods_TC_005] on class [logo.test.HomeAutoTest] Retry 3 times
+2016-07-14 09:45:47,407 INFO main onTestStart(line:44)Home_Goods_TC_005 Start
+2016-07-14 09:46:07,338 INFO main onTestFailure(line:26)Home_Goods_TC_005 Failure
+2016-07-14 09:46:22,987 INFO main onTestStart(line:44)Home_Goods_TC_006 Start
+2016-07-14 09:46:42,857 INFO main onTestFailure(line:26)Home_Goods_TC_006 Failure
+2016-07-14 09:46:45,549 INFO main retry(line:33)Retry for [Home_Goods_TC_006] on class [logo.test.HomeAutoTest] Retry 1 times
+2016-07-14 09:46:59,213 INFO main onTestStart(line:44)Home_Goods_TC_006 Start
+2016-07-14 09:47:18,553 INFO main onTestFailure(line:26)Home_Goods_TC_006 Failure
+2016-07-14 09:47:21,109 INFO main retry(line:33)Retry for [Home_Goods_TC_006] on class [logo.test.HomeAutoTest] Retry 2 times
+2016-07-14 09:47:34,548 INFO main onTestStart(line:44)Home_Goods_TC_006 Start
+2016-07-14 09:47:54,331 INFO main onTestFailure(line:26)Home_Goods_TC_006 Failure
+2016-07-14 09:47:56,858 INFO main retry(line:33)Retry for [Home_Goods_TC_006] on class [logo.test.HomeAutoTest] Retry 3 times
+2016-07-14 09:48:11,043 INFO main onTestStart(line:44)Home_Goods_TC_006 Start
+2016-07-14 09:48:30,877 INFO main onTestFailure(line:26)Home_Goods_TC_006 Failure
+2016-07-14 09:48:47,336 INFO main onTestStart(line:44)Home_Orders_TC_007 Start
+2016-07-14 09:49:06,946 INFO main onTestFailure(line:26)Home_Orders_TC_007 Failure
+2016-07-14 09:49:09,981 INFO main retry(line:33)Retry for [Home_Orders_TC_007] on class [logo.test.HomeAutoTest] Retry 1 times
+2016-07-14 09:49:23,910 INFO main onTestStart(line:44)Home_Orders_TC_007 Start
+2016-07-14 09:49:43,708 INFO main onTestFailure(line:26)Home_Orders_TC_007 Failure
+2016-07-14 09:49:46,450 INFO main retry(line:33)Retry for [Home_Orders_TC_007] on class [logo.test.HomeAutoTest] Retry 2 times
+2016-07-14 09:49:59,577 INFO main onTestStart(line:44)Home_Orders_TC_007 Start
+2016-07-14 09:50:19,434 INFO main onTestFailure(line:26)Home_Orders_TC_007 Failure
+2016-07-14 09:50:22,121 INFO main retry(line:33)Retry for [Home_Orders_TC_007] on class [logo.test.HomeAutoTest] Retry 3 times
+2016-07-14 09:50:35,498 INFO main onTestStart(line:44)Home_Orders_TC_007 Start
+2016-07-14 09:50:55,408 INFO main onTestFailure(line:26)Home_Orders_TC_007 Failure
+2016-07-14 09:51:11,753 INFO main onTestStart(line:44)Home_Goods_TC_008 Start
+2016-07-14 09:51:31,605 INFO main onTestFailure(line:26)Home_Goods_TC_008 Failure
+2016-07-14 09:51:33,950 INFO main retry(line:33)Retry for [Home_Goods_TC_008] on class [logo.test.HomeAutoTest] Retry 1 times
+2016-07-14 09:51:47,836 INFO main onTestStart(line:44)Home_Goods_TC_008 Start
+2016-07-14 09:52:07,231 INFO main onTestFailure(line:26)Home_Goods_TC_008 Failure
+2016-07-14 09:52:09,873 INFO main retry(line:33)Retry for [Home_Goods_TC_008] on class [logo.test.HomeAutoTest] Retry 2 times
+2016-07-14 09:52:23,263 INFO main onTestStart(line:44)Home_Goods_TC_008 Start
+2016-07-14 09:52:42,727 INFO main onTestFailure(line:26)Home_Goods_TC_008 Failure
+2016-07-14 09:52:45,570 INFO main retry(line:33)Retry for [Home_Goods_TC_008] on class [logo.test.HomeAutoTest] Retry 3 times
+2016-07-14 09:52:59,680 INFO main onTestStart(line:44)Home_Goods_TC_008 Start
+2016-07-14 09:53:19,148 INFO main onTestFailure(line:26)Home_Goods_TC_008 Failure
+2016-07-14 09:53:35,527 INFO main onTestStart(line:44)My_Logout_TC_002 Start
+2016-07-14 09:53:55,237 INFO main onTestFailure(line:26)My_Logout_TC_002 Failure
+2016-07-14 09:53:58,118 INFO main retry(line:33)Retry for [My_Logout_TC_002] on class [logo.test.MyLogoutAutoTest] Retry 1 times
+2016-07-14 09:54:11,171 INFO main onTestStart(line:44)My_Logout_TC_002 Start
+2016-07-14 09:54:30,962 INFO main onTestFailure(line:26)My_Logout_TC_002 Failure
+2016-07-14 09:54:33,529 INFO main retry(line:33)Retry for [My_Logout_TC_002] on class [logo.test.MyLogoutAutoTest] Retry 2 times
+2016-07-14 09:54:46,816 INFO main onTestStart(line:44)My_Logout_TC_002 Start
+2016-07-14 09:55:05,997 INFO main onTestFailure(line:26)My_Logout_TC_002 Failure
+2016-07-14 09:55:08,158 INFO main retry(line:33)Retry for [My_Logout_TC_002] on class [logo.test.MyLogoutAutoTest] Retry 3 times
+2016-07-14 09:55:20,611 INFO main onTestStart(line:44)My_Logout_TC_002 Start
+2016-07-14 09:55:39,949 INFO main onTestFailure(line:26)My_Logout_TC_002 Failure
+2016-07-14 09:55:54,483 INFO main onTestStart(line:44)My_Login_TC_003 Start
+2016-07-14 09:56:33,713 INFO main onTestFailure(line:26)My_Login_TC_003 Failure
+2016-07-14 09:56:36,165 INFO main retry(line:33)Retry for [My_Login_TC_003] on class [logo.test.MyDisLoginAutoTest] Retry 1 times
+2016-07-14 09:56:48,352 INFO main onTestStart(line:44)My_Login_TC_003 Start
+2016-07-14 09:57:26,816 INFO main onTestFailure(line:26)My_Login_TC_003 Failure
+2016-07-14 09:57:28,971 INFO main retry(line:33)Retry for [My_Login_TC_003] on class [logo.test.MyDisLoginAutoTest] Retry 2 times
+2016-07-14 09:57:41,157 INFO main onTestStart(line:44)My_Login_TC_003 Start
+2016-07-14 09:58:24,762 INFO main onTestFailure(line:26)My_Login_TC_003 Failure
+2016-07-14 09:58:27,047 INFO main retry(line:33)Retry for [My_Login_TC_003] on class [logo.test.MyDisLoginAutoTest] Retry 3 times
+2016-07-14 09:58:39,205 INFO main onTestStart(line:44)My_Login_TC_003 Start
+2016-07-14 09:59:17,322 INFO main onTestFailure(line:26)My_Login_TC_003 Failure
+2016-07-14 09:59:32,424 INFO main onTestStart(line:44)Upgoods_Recommend_TC_001 Start
+2016-07-14 09:59:51,855 INFO main onTestFailure(line:26)Upgoods_Recommend_TC_001 Failure
+2016-07-14 09:59:54,048 INFO main retry(line:33)Retry for [Upgoods_Recommend_TC_001] on class [logo.test.UpgoodsAutoTest] Retry 1 times
+2016-07-14 10:00:05,960 INFO main onTestStart(line:44)Upgoods_Recommend_TC_001 Start
+2016-07-14 10:00:25,570 INFO main onTestFailure(line:26)Upgoods_Recommend_TC_001 Failure
+2016-07-14 10:00:27,640 INFO main retry(line:33)Retry for [Upgoods_Recommend_TC_001] on class [logo.test.UpgoodsAutoTest] Retry 2 times
+2016-07-14 10:00:39,765 INFO main onTestStart(line:44)Upgoods_Recommend_TC_001 Start
+2016-07-14 10:00:59,071 INFO main onTestFailure(line:26)Upgoods_Recommend_TC_001 Failure
+2016-07-14 10:01:01,196 INFO main retry(line:33)Retry for [Upgoods_Recommend_TC_001] on class [logo.test.UpgoodsAutoTest] Retry 3 times
+2016-07-14 10:01:13,195 INFO main onTestStart(line:44)Upgoods_Recommend_TC_001 Start
+2016-07-14 10:01:32,826 INFO main onTestFailure(line:26)Upgoods_Recommend_TC_001 Failure
+2016-07-14 10:01:46,764 INFO main onTestStart(line:44)Upgoods_Classify_TC_002 Start
+2016-07-14 10:02:06,199 INFO main onTestFailure(line:26)Upgoods_Classify_TC_002 Failure
+2016-07-14 10:02:08,314 INFO main retry(line:33)Retry for [Upgoods_Classify_TC_002] on class [logo.test.UpgoodsAutoTest] Retry 1 times
+2016-07-14 10:02:20,421 INFO main onTestStart(line:44)Upgoods_Classify_TC_002 Start
+2016-07-14 10:02:40,371 INFO main onTestFailure(line:26)Upgoods_Classify_TC_002 Failure
+2016-07-14 10:02:42,527 INFO main retry(line:33)Retry for [Upgoods_Classify_TC_002] on class [logo.test.UpgoodsAutoTest] Retry 2 times
+2016-07-14 10:02:54,322 INFO main onTestStart(line:44)Upgoods_Classify_TC_002 Start
+2016-07-14 10:03:13,662 INFO main onTestFailure(line:26)Upgoods_Classify_TC_002 Failure
+2016-07-14 10:03:15,791 INFO main retry(line:33)Retry for [Upgoods_Classify_TC_002] on class [logo.test.UpgoodsAutoTest] Retry 3 times
+2016-07-14 10:03:27,967 INFO main onTestStart(line:44)Upgoods_Classify_TC_002 Start
+2016-07-14 10:03:47,734 INFO main onTestFailure(line:26)Upgoods_Classify_TC_002 Failure
+2016-07-14 10:04:01,785 INFO main onTestStart(line:44)Upgoods_Search_TC_003 Start
+2016-07-14 10:04:21,629 INFO main onTestFailure(line:26)Upgoods_Search_TC_003 Failure
+2016-07-14 10:04:23,831 INFO main retry(line:33)Retry for [Upgoods_Search_TC_003] on class [logo.test.UpgoodsAutoTest] Retry 1 times
+2016-07-14 10:04:37,559 INFO main onTestStart(line:44)Upgoods_Search_TC_003 Start
+2016-07-14 10:04:57,262 INFO main onTestFailure(line:26)Upgoods_Search_TC_003 Failure
+2016-07-14 10:04:59,582 INFO main retry(line:33)Retry for [Upgoods_Search_TC_003] on class [logo.test.UpgoodsAutoTest] Retry 2 times
+2016-07-14 10:05:12,043 INFO main onTestStart(line:44)Upgoods_Search_TC_003 Start
+2016-07-14 10:05:31,187 INFO main onTestFailure(line:26)Upgoods_Search_TC_003 Failure
+2016-07-14 10:05:33,316 INFO main retry(line:33)Retry for [Upgoods_Search_TC_003] on class [logo.test.UpgoodsAutoTest] Retry 3 times
+2016-07-14 10:05:45,737 INFO main onTestStart(line:44)Upgoods_Search_TC_003 Start
+2016-07-14 10:06:05,320 INFO main onTestFailure(line:26)Upgoods_Search_TC_003 Failure
+2016-07-14 10:06:19,665 INFO main onTestStart(line:44)Upgoods_All_TC_004 Start
+2016-07-14 10:06:38,912 INFO main onTestFailure(line:26)Upgoods_All_TC_004 Failure
+2016-07-14 10:06:41,765 INFO main retry(line:33)Retry for [Upgoods_All_TC_004] on class [logo.test.UpgoodsAutoTest] Retry 1 times
+2016-07-14 10:06:54,044 INFO main onTestStart(line:44)Upgoods_All_TC_004 Start
+2016-07-14 10:07:13,815 INFO main onTestFailure(line:26)Upgoods_All_TC_004 Failure
+2016-07-14 10:07:15,966 INFO main retry(line:33)Retry for [Upgoods_All_TC_004] on class [logo.test.UpgoodsAutoTest] Retry 2 times
+2016-07-14 10:07:28,125 INFO main onTestStart(line:44)Upgoods_All_TC_004 Start
+2016-07-14 10:07:47,496 INFO main onTestFailure(line:26)Upgoods_All_TC_004 Failure
+2016-07-14 10:07:49,782 INFO main retry(line:33)Retry for [Upgoods_All_TC_004] on class [logo.test.UpgoodsAutoTest] Retry 3 times
+2016-07-14 10:08:01,920 INFO main onTestStart(line:44)Upgoods_All_TC_004 Start
+2016-07-14 10:08:21,201 INFO main onTestFailure(line:26)Upgoods_All_TC_004 Failure
+2016-07-14 10:08:35,952 INFO main onTestStart(line:44)My_Logout_TC_002 Start
+2016-07-14 10:08:55,654 INFO main onTestFailure(line:26)My_Logout_TC_002 Failure
+2016-07-14 10:08:57,962 INFO main retry(line:33)Retry for [My_Logout_TC_002] on class [logo.test.MyDisLogoutAutoTest] Retry 1 times
+2016-07-14 10:09:10,091 INFO main onTestStart(line:44)My_Logout_TC_002 Start
+2016-07-14 10:09:29,817 INFO main onTestFailure(line:26)My_Logout_TC_002 Failure
+2016-07-14 10:09:31,850 INFO main retry(line:33)Retry for [My_Logout_TC_002] on class [logo.test.MyDisLogoutAutoTest] Retry 2 times
+2016-07-14 10:09:44,401 INFO main onTestStart(line:44)My_Logout_TC_002 Start
+2016-07-14 10:10:03,562 INFO main onTestFailure(line:26)My_Logout_TC_002 Failure
+2016-07-14 10:10:05,728 INFO main retry(line:33)Retry for [My_Logout_TC_002] on class [logo.test.MyDisLogoutAutoTest] Retry 3 times
+2016-07-14 10:10:18,258 INFO main onTestStart(line:44)My_Logout_TC_002 Start
+2016-07-14 10:10:37,865 INFO main onTestFailure(line:26)My_Logout_TC_002 Failure
+2016-07-14 10:10:39,910 INFO main onFinish(line:77)failedTest = My_Login_TC_003
+2016-07-14 10:10:39,911 INFO main onFinish(line:77)failedTest = My_Logout_TC_002
+2016-07-14 10:10:39,911 INFO main onFinish(line:77)failedTest = Home_Orders_TC_002
+2016-07-14 10:10:39,911 INFO main onFinish(line:77)failedTest = Upgoods_Search_TC_003
+2016-07-14 10:10:39,911 INFO main onFinish(line:77)failedTest = Home_Orders_TC_007
+2016-07-14 10:10:39,911 INFO main onFinish(line:77)failedTest = My_Login_TC_003
+2016-07-14 10:10:39,911 INFO main onFinish(line:77)failedTest = Home_Goods_TC_005
+2016-07-14 10:10:39,912 INFO main onFinish(line:77)failedTest = Home_Goods_TC_008
+2016-07-14 10:10:39,912 INFO main onFinish(line:77)failedTest = Home_Goods_TC_008
+2016-07-14 10:10:39,912 INFO main onFinish(line:77)failedTest = Upgoods_Recommend_TC_001
+2016-07-14 10:10:39,912 INFO main onFinish(line:77)failedTest = Home_Goods_TC_008
+2016-07-14 10:10:39,912 INFO main onFinish(line:77)failedTest = Home_Goods_TC_005
+2016-07-14 10:10:39,912 INFO main onFinish(line:77)failedTest = Upgoods_Classify_TC_002
+2016-07-14 10:10:39,912 INFO main onFinish(line:77)failedTest = Home_Goods_TC_008
+2016-07-14 10:10:39,912 INFO main onFinish(line:77)failedTest = Home_Goods_TC_006
+2016-07-14 10:10:39,913 INFO main onFinish(line:77)failedTest = My_Logout_TC_002
+2016-07-14 10:10:39,913 INFO main onFinish(line:77)failedTest = My_Login_TC_001
+2016-07-14 10:10:39,913 INFO main onFinish(line:77)failedTest = Home_Goods_TC_003
+2016-07-14 10:10:39,913 INFO main onFinish(line:77)failedTest = My_Login_TC_001
+2016-07-14 10:10:39,915 INFO main onFinish(line:77)failedTest = My_Login_TC_003
+2016-07-14 10:10:39,915 INFO main onFinish(line:77)failedTest = Upgoods_Classify_TC_002
+2016-07-14 10:10:39,915 INFO main onFinish(line:77)failedTest = Home_Goods_TC_006
+2016-07-14 10:10:39,915 INFO main onFinish(line:77)failedTest = Home_Goods_TC_003
+2016-07-14 10:10:39,915 INFO main onFinish(line:77)failedTest = Home_Goods_TC_003
+2016-07-14 10:10:39,916 INFO main onFinish(line:77)failedTest = Home_Goods_TC_001
+2016-07-14 10:10:39,916 INFO main onFinish(line:77)failedTest = My_Logout_TC_002
+2016-07-14 10:10:39,916 INFO main onFinish(line:77)failedTest = Upgoods_All_TC_004
+2016-07-14 10:10:39,916 INFO main onFinish(line:77)failedTest = Home_Goods_TC_004
+2016-07-14 10:10:39,916 INFO main onFinish(line:77)failedTest = Upgoods_Classify_TC_002
+2016-07-14 10:10:39,917 INFO main onFinish(line:77)failedTest = Home_Orders_TC_002
+2016-07-14 10:10:39,917 INFO main onFinish(line:77)failedTest = Home_Orders_TC_002
+2016-07-14 10:10:39,917 INFO main onFinish(line:77)failedTest = Upgoods_Recommend_TC_001
+2016-07-14 10:10:39,917 INFO main onFinish(line:77)failedTest = Home_Orders_TC_007
+2016-07-14 10:10:39,918 INFO main onFinish(line:77)failedTest = Home_Goods_TC_003
+2016-07-14 10:10:39,918 INFO main onFinish(line:77)failedTest = Home_Orders_TC_002
+2016-07-14 10:10:39,918 INFO main onFinish(line:77)failedTest = Upgoods_All_TC_004
+2016-07-14 10:10:39,918 INFO main onFinish(line:77)failedTest = Upgoods_Recommend_TC_001
+2016-07-14 10:10:39,918 INFO main onFinish(line:77)failedTest = Home_Goods_TC_004
+2016-07-14 10:10:39,918 INFO main onFinish(line:77)failedTest = My_Logout_TC_002
+2016-07-14 10:10:39,921 INFO main onFinish(line:77)failedTest = Upgoods_All_TC_004
+2016-07-14 10:10:39,921 INFO main onFinish(line:77)failedTest = My_Logout_TC_002
+2016-07-14 10:10:39,922 INFO main onFinish(line:77)failedTest = My_Logout_TC_002
+2016-07-14 10:10:39,922 INFO main onFinish(line:77)failedTest = Home_Goods_TC_004
+2016-07-14 10:10:39,922 INFO main onFinish(line:77)failedTest = Home_Goods_TC_005
+2016-07-14 10:10:39,922 INFO main onFinish(line:77)failedTest = Home_Orders_TC_007
+2016-07-14 10:10:39,922 INFO main onFinish(line:77)failedTest = Home_Goods_TC_001
+2016-07-14 10:10:39,923 INFO main onFinish(line:77)failedTest = Home_Goods_TC_001
+2016-07-14 10:10:39,923 INFO main onFinish(line:77)failedTest = Upgoods_Recommend_TC_001
+2016-07-14 10:10:39,923 INFO main onFinish(line:77)failedTest = Home_Goods_TC_004
+2016-07-14 10:10:39,923 INFO main onFinish(line:77)failedTest = Home_Orders_TC_007
+2016-07-14 10:10:39,923 INFO main onFinish(line:77)failedTest = My_Login_TC_001
+2016-07-14 10:10:39,924 INFO main onFinish(line:77)failedTest = Upgoods_Classify_TC_002
+2016-07-14 10:10:39,924 INFO main onFinish(line:77)failedTest = Home_Goods_TC_006
+2016-07-14 10:10:39,924 INFO main onFinish(line:77)failedTest = My_Logout_TC_002
+2016-07-14 10:10:39,924 INFO main onFinish(line:77)failedTest = My_Login_TC_001
+2016-07-14 10:10:39,924 INFO main onFinish(line:77)failedTest = Home_Goods_TC_005
+2016-07-14 10:10:39,924 INFO main onFinish(line:77)failedTest = Upgoods_Search_TC_003
+2016-07-14 10:10:39,924 INFO main onFinish(line:77)failedTest = My_Logout_TC_002
+2016-07-14 10:10:39,925 INFO main onFinish(line:77)failedTest = Upgoods_Search_TC_003
+2016-07-14 10:10:39,925 INFO main onFinish(line:77)failedTest = My_Login_TC_003
+2016-07-14 10:10:39,925 INFO main onFinish(line:77)failedTest = Home_Goods_TC_001
+2016-07-14 10:10:39,925 INFO main onFinish(line:77)failedTest = Home_Goods_TC_006
+2016-07-14 10:10:39,925 INFO main onFinish(line:77)failedTest = Upgoods_Search_TC_003
+2016-07-14 10:10:39,925 INFO main onFinish(line:77)failedTest = Upgoods_All_TC_004
+2016-07-14 10:10:39,926 INFO main onFinish(line:100)Remove repeat Fail Test: My_Login_TC_003
+2016-07-14 10:10:39,926 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Goods_TC_008
+2016-07-14 10:10:39,926 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Goods_TC_008
+2016-07-14 10:10:39,926 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Goods_TC_005
+2016-07-14 10:10:39,926 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Goods_TC_008
+2016-07-14 10:10:39,927 INFO main onFinish(line:100)Remove repeat Fail Test: My_Login_TC_001
+2016-07-14 10:10:39,927 INFO main onFinish(line:100)Remove repeat Fail Test: My_Login_TC_003
+2016-07-14 10:10:40,020 INFO main onFinish(line:100)Remove repeat Fail Test: Upgoods_Classify_TC_002
+2016-07-14 10:10:40,020 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Goods_TC_006
+2016-07-14 10:10:40,020 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Goods_TC_003
+2016-07-14 10:10:40,020 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Goods_TC_003
+2016-07-14 10:10:40,020 INFO main onFinish(line:100)Remove repeat Fail Test: My_Logout_TC_002
+2016-07-14 10:10:40,020 INFO main onFinish(line:100)Remove repeat Fail Test: Upgoods_Classify_TC_002
+2016-07-14 10:10:40,020 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Orders_TC_002
+2016-07-14 10:10:40,021 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Orders_TC_002
+2016-07-14 10:10:40,021 INFO main onFinish(line:100)Remove repeat Fail Test: Upgoods_Recommend_TC_001
+2016-07-14 10:10:40,021 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Orders_TC_007
+2016-07-14 10:10:40,021 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Goods_TC_003
+2016-07-14 10:10:40,021 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Orders_TC_002
+2016-07-14 10:10:40,021 INFO main onFinish(line:100)Remove repeat Fail Test: Upgoods_All_TC_004
+2016-07-14 10:10:40,021 INFO main onFinish(line:100)Remove repeat Fail Test: Upgoods_Recommend_TC_001
+2016-07-14 10:10:40,021 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Goods_TC_004
+2016-07-14 10:10:40,021 INFO main onFinish(line:100)Remove repeat Fail Test: My_Logout_TC_002
+2016-07-14 10:10:40,021 INFO main onFinish(line:100)Remove repeat Fail Test: Upgoods_All_TC_004
+2016-07-14 10:10:40,022 INFO main onFinish(line:100)Remove repeat Fail Test: My_Logout_TC_002
+2016-07-14 10:10:40,022 INFO main onFinish(line:100)Remove repeat Fail Test: My_Logout_TC_002
+2016-07-14 10:10:40,022 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Goods_TC_004
+2016-07-14 10:10:40,022 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Goods_TC_005
+2016-07-14 10:10:40,022 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Orders_TC_007
+2016-07-14 10:10:40,022 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Goods_TC_001
+2016-07-14 10:10:40,022 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Goods_TC_001
+2016-07-14 10:10:40,022 INFO main onFinish(line:100)Remove repeat Fail Test: Upgoods_Recommend_TC_001
+2016-07-14 10:10:40,022 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Goods_TC_004
+2016-07-14 10:10:40,022 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Orders_TC_007
+2016-07-14 10:10:40,022 INFO main onFinish(line:100)Remove repeat Fail Test: My_Login_TC_001
+2016-07-14 10:10:40,023 INFO main onFinish(line:100)Remove repeat Fail Test: Upgoods_Classify_TC_002
+2016-07-14 10:10:40,023 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Goods_TC_006
+2016-07-14 10:10:40,023 INFO main onFinish(line:100)Remove repeat Fail Test: My_Logout_TC_002
+2016-07-14 10:10:40,023 INFO main onFinish(line:100)Remove repeat Fail Test: My_Login_TC_001
+2016-07-14 10:10:40,023 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Goods_TC_005
+2016-07-14 10:10:40,023 INFO main onFinish(line:100)Remove repeat Fail Test: Upgoods_Search_TC_003
+2016-07-14 10:10:40,023 INFO main onFinish(line:100)Remove repeat Fail Test: My_Logout_TC_002
+2016-07-14 10:10:40,023 INFO main onFinish(line:100)Remove repeat Fail Test: Upgoods_Search_TC_003
+2016-07-14 10:10:40,023 INFO main onFinish(line:100)Remove repeat Fail Test: My_Login_TC_003
+2016-07-14 10:10:40,023 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Goods_TC_001
+2016-07-14 10:10:40,023 INFO main onFinish(line:100)Remove repeat Fail Test: Home_Goods_TC_006
+2016-07-14 10:10:40,024 INFO main onFinish(line:100)Remove repeat Fail Test: Upgoods_Search_TC_003
+2016-07-14 10:10:40,024 INFO main onFinish(line:100)Remove repeat Fail Test: Upgoods_All_TC_004

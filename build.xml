@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<project name="iosTest" basedir="." default="run_tests">
+	<property name="src" value="src" />
+	<property name="dest" value="classes" />
+	<property name="lib.dir" value="${basedir}/lib" />
+	<property name="output.dir" value="${basedir}/test-output" />
+
+	<path id="compile.path">
+		<fileset dir="${lib.dir}/">
+			<include name="*.jar" />
+		</fileset>
+		<pathelement location="${src}" />
+		<pathelement location="${dest}" />
+	</path>
+
+	<target name="init">
+		<mkdir dir="${dest}" />
+	</target>
+
+	<target name="compile" depends="init">
+		<echo>compile tests</echo>
+		<javac srcdir="${src}" destdir="${dest}" encoding="UTF-8"
+			classpathref="compile.path" />
+	</target>
+	<taskdef resource="testngtasks" classpath="${lib.dir}/testng.jar" />
+
+	<!-- 开始测试 -->
+	<target name="run_tests" depends="compile">
+		<echo>running tests</echo>
+		<testng classpathref="compile.path" outputdir="${output.dir}"
+			haltonfailure="no" 
+          failureproperty="failed"
+          parallel="true"
+          threadCount="1"  listeners="com.netease.qa.testng.PowerEmailableReporter, 
+        com.netease.qa.testng.RetryListener, com.netease.qa.testng.TestResultListener">
+			<xmlfileset dir="${src}/" >
+			    <include name="testng.xml" />
+			</xmlfileset>
+			<classfileset dir="${dest}">
+      <include name="/*.class" />
+    </classfileset>
+
+		</testng>
+		<antcall target="transform" />
+		<!-- <fail message="TEST FAILURE" if="failed" /> -->
+		
+	</target>
+
+	<!-- 生成报告 -->
+	<target name="transform" description="report">
+		<xslt
+			in="${output.dir}/testng-results.xml"
+			style="${lib.dir}/testng-results.xsl"
+			out="${output.dir}/Report.html"
+			force="yes">
+			<!-- you need to specify the directory here again -->
+			<param name="testNgXslt.outputDir" expression="${output.dir}" />
+			<classpath refid="compile.path" />
+		</xslt>
+	</target>
+	
+    
+</project>
+

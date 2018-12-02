@@ -1,0 +1,6 @@
+2016-05-13 14:14:58,033 INFO main <clinit>(line:23)retrycount=3
+2016-05-13 14:14:58,035 INFO main <clinit>(line:24)sourceCodeDir=src
+2016-05-13 14:14:58,036 INFO main <clinit>(line:25)sourceCodeEncoding=UTF-8
+2016-05-13 14:14:59,367 INFO main onTestStart(line:44)My_Login_TC_001 Start
+2016-05-13 14:14:59,368 INFO main onTestSkipped(line:32)My_Login_TC_001 Skipped
+2016-05-13 14:14:59,425 INFO main onFinish(line:63)skipTest = My_Login_TC_001

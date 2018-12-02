@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="80262" started-at="2016-08-15T08:33:21Z" finished-at="2016-08-15T08:34:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="80262" started-at="2016-08-15T08:33:21Z" finished-at="2016-08-15T08:34:41Z">
+      <class name="logo.test.AutoLoginTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:logo.test.AutoLoginTest@55816088]" name="beforeClass" is-config="true" duration-ms="174" started-at="2016-08-15T16:33:21Z" finished-at="2016-08-15T16:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:logo.test.AutoLoginTest@55816088]" name="beforeMethod" is-config="true" duration-ms="11288" started-at="2016-08-15T16:33:21Z" finished-at="2016-08-15T16:33:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="My_Login_001()[pri:0, instance:logo.test.AutoLoginTest@55816088]" name="My_Login_001" duration-ms="65866" started-at="2016-08-15T16:33:33Z" finished-at="2016-08-15T16:34:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- My_Login_001 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:logo.test.AutoLoginTest@55816088]" name="afterMethod" is-config="true" duration-ms="2926" started-at="2016-08-15T16:34:39Z" finished-at="2016-08-15T16:34:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- logo.test.AutoLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
