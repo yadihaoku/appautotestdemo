@@ -24,9 +24,8 @@ public class ActionWrapper{
 		String result = action.execute();
 		//写入 excel
 		HSSFRichTextString hts = new HSSFRichTextString(result);
-		sheet.getRow(rowIndex).getCell(resultCellIndex).setCellValue(hts);
-		
-		
+		sheet.getRow(rowIndex).getCell(resultCellIndex).setCellValue(hts);//写入哪一列，怎么确定的？
+
 		return result;
 	}
 

@@ -43,7 +43,9 @@ public class AutoTestExcelFile {
 	 * @param is
 	 * @param sheetName
 	 *            excel sheet名称
-	 * @return
+	 * @return 
+	 * Q return	 *         readExcelToMap()所在的方法也叫readExcelToMap(),为什么直接就调用和其重名的一个方法？
+	 *	.... 这就是多态、是方法的重载。
 	 */
 	public HashMap<Integer, List<String>> readExcelToMap(String filePath, String sheetName) // 获取excel内容
 	{
@@ -52,12 +54,15 @@ public class AutoTestExcelFile {
 			throw new RuntimeException(filePath + " 不存在!");
 
 		try {
+			// 返回readExcelToMap()类型
+			// 下面的方法，返回解析后的 excel 内容，不会为null。 可能的值要么是空的map {} 或者读取到值的 map {"xxxx"}
 			return readExcelToMap(new FileInputStream(file), sheetName);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
+		// Q 返回null有何意义？
+		// 当excel文件不存在时，返回 null
 		return null;
-
 	}
 
 	public HSSFSheet getSheet(String filePath, String sheetName) {
@@ -76,15 +81,18 @@ public class AutoTestExcelFile {
 	public HSSFSheet getSheet(InputStream is, String sheetName) {
 		HSSFWorkbook workbook = null;
 		try {
+			// Q new POIFSFileSystem(is)什么意思？
+			// apache poi excel 解析 库，对 文件流的一种封装。
 			workbook = new HSSFWorkbook(new POIFSFileSystem(is));
+			// 获取 sheet 页
+			HSSFSheet sheet = workbook.getSheet(sheetName);
+			return sheet;
 		} catch (IOException e) {
 			e.printStackTrace();
 			// 异常时，返回，后续代码，不再执行。
-			return null;
+			// Q 和上一个catch（）有什么不同？，return null的位置一个在catch范围内，一个没有
 		}
-		// 获取 sheet 页
-		HSSFSheet sheet = workbook.getSheet(sheetName);
-		return sheet;
+		return null;
 	}
 
 	public HSSFWorkbook getWorkBook(InputStream is) {
@@ -96,6 +104,7 @@ public class AutoTestExcelFile {
 		}
 		return workbook;
 	}
+
 	public HSSFWorkbook getWorkBook(String filePath) {
 		File file = new File(filePath);
 		if (!file.exists())
@@ -109,6 +118,7 @@ public class AutoTestExcelFile {
 		}
 		return workbook;
 	}
+
 	/**
 	 * 读取excel ，解析为 Map<Integer, List<String>> 的格式。
 	 * 
@@ -123,34 +133,34 @@ public class AutoTestExcelFile {
 		HashMap<Integer, List<String>> content = new HashMap<Integer, List<String>>();
 		// 获取 sheet 页
 		HSSFSheet sheet = getSheet(is, sheetName);
-
 		// 获取 逻辑最后一个行数
 		int rowNum = sheet.getLastRowNum();
 
-		// 如果一行数据，也没有。立即返回 。
-		if (rowNum < 1)
+		// 如果一行数据也没有。立即返回 。
+		if (rowNum < 1) {
 			return content;
+		} else {
+			// 以第一行为准，获取 第一行的最大 列数
+			int columnCount = sheet.getRow(0).getPhysicalNumberOfCells();
 
-		// 以第一行为准，获取 第一行的最大 列数
-		int columnCount = sheet.getRow(0).getPhysicalNumberOfCells();
+			for (int r = 0; r <= rowNum; r++) {
+				// Q 获取的是excel表中实际行号?
+				HSSFRow row = sheet.getRow(r);
 
-		for (int r = 0; r <= rowNum; r++) {
-			HSSFRow row = sheet.getRow(r);
-
-			ArrayList<String> list = new ArrayList<>();
-			content.put(r, list);
-			// 读取 一行的数据
-			for (int colIndex = 0; colIndex < columnCount; colIndex++) {
-				HSSFCell cell = row.getCell(colIndex);
-				if (cell == null) {
-					list.add("");
-				} else {
-					list.add(getStringCellValue(row.getCell(colIndex)));
+				ArrayList<String> list = new ArrayList<>();
+				content.put(r, list);
+				// 读取 一行的数据
+				for (int colIndex = 0; colIndex < columnCount; colIndex++) {
+					HSSFCell cell = row.getCell(colIndex);
+					if (cell == null) {
+						list.add("");
+					} else {
+						list.add(getStringCellValue(row.getCell(colIndex)));
+					}
 				}
 			}
+			return content;
 		}
-
-		return content;
 	}
 
 	public String[] readExcelTitleContent(InputStream is)// 获取excel中标题内容

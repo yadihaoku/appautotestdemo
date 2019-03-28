@@ -76,7 +76,14 @@ public class ActionWithFileMapping {
 	 */
 	public static ActionWithFileMapping parseHeadRow(List<String> row){
 		HashMap<String, Integer> mapping = new HashMap<>();
-		
+		// row = {"测试用例编号",2	"用例描述",	"测试步聚,	测试对象名称描述	定位方式	控件元素"}
+		/**
+		 * mapping = [
+		 * 	"测试用例编号"：0，
+		 * 	"用例描述" ： 1 
+		 * ]
+		 * 
+		 */
 		for(int i = 0 ; i < row.size(); i++){
 			String head = row.get(i).trim();
 			mapping.put(head, i);

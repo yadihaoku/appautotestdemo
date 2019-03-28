@@ -16,7 +16,13 @@
 	<classpathentry kind="lib" path="lib/saxon-8.7.jar"/>
 	<classpathentry kind="lib" path="lib/selenium-java-2.43.1-srcs.jar"/>
 	<classpathentry kind="lib" path="lib/selenium-java-2.43.1.jar"/>
-	<classpathentry kind="lib" path="lib/selenium-server-standalone-2.39.0.jar"/>
+	<classpathentry kind="lib" path="lib/selenium-server-standalone-2.39.0.jar" sourcepath="E:/source/java/common-io/commons-io-2.2-src.zip">
+		<attributes>
+			<attribute name="source_encoding" value="UTF-8"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="lib/testng.jar"/>
+	<classpathentry kind="lib" path="lib/ApacheJMeter_core.jar"/>
+	<classpathentry kind="lib" path="lib/ApacheJMeter_java.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

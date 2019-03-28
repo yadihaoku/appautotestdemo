@@ -16,37 +16,37 @@ import org.testng.Reporter;
 
 public class AutoLogger
 {
-	private static Logger logger = null;
-	private static AutoLogger logg = null;
+	private static Logger logger = null;//???
+	private static AutoLogger logg = null;//??
 
 	public static AutoLogger getLogger(Class<?> T)
 	{
 		if (logger == null)
 		{
-			Properties props = new Properties();
+			Properties props = new Properties();//????
 			try
 			{
-				InputStream is = new FileInputStream("src//log4j.properties");
-				props.load(is);
+				InputStream is = new FileInputStream("src//log4j.properties");//??log4j.properties作用？都是定义的什么？
+				props.load(is);//????
 			} catch (IOException e)
 			{
 				e.printStackTrace();
 			}
 
-			PropertyConfigurator.configure(props);
-			logger = Logger.getLogger(T);
+			PropertyConfigurator.configure(props);//???
+			logger = Logger.getLogger(T);//????自己调用自己？getLogger(T)
 			logg = new AutoLogger();
 		}
 		return logg;
 	}
 
-	// 重写logger方法
+//	 重写logger方法???
 	public void log(String msg)
 	{
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-		Calendar ca = Calendar.getInstance();
-		logger.info(msg);
-		Reporter.log("Reporter:" + sdf.format(ca.getTime()) + "===>" + msg);
+		Calendar ca = Calendar.getInstance();//???
+		logger.info(msg);//??
+		Reporter.log("Reporter:" + sdf.format(ca.getTime()) + "===>" + msg);//????
 	}
 
 	public void debug(String msg)

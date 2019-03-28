@@ -30,6 +30,7 @@ public class FinderFactory {
 		if(locationMode == null)return null;
 		if(sFinders.containsKey(locationMode)){
 			try {
+				// ByIdFinder.class.newInstance()  /==\   new ByIdFinder()
 				BaseFinder finder = (BaseFinder) sFinders.get(locationMode).newInstance();
 				finder.setSelector(selector);
 				return finder;

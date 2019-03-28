@@ -32,7 +32,7 @@ public class ActionFactory {
 			actionBean = new KeyAction(driver, data);
 		}else{
 			// nothing
-			return null;
+			throw new RuntimeException("未知的动作-> " + action);
 		}
 		//设置 Finder
 		actionBean.setFinder(FinderFactory.make(locationMode, selector));

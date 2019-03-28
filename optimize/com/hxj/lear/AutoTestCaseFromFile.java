@@ -28,8 +28,8 @@ import logo.module.Config;
 public class AutoTestCaseFromFile {
 	
 	
-	AutoTestExcelFile excelReader = new AutoTestExcelFile();
-	AutoLogger log = AutoLogger.getLogger(AutoTestCaseFromFile.class);//AutoTestCaseFromFile.class打
+	AutoTestExcelFile excelReader = new AutoTestExcelFile();//实例化logo.file下的AutoTestExcelFile.jar
+	AutoLogger log = AutoLogger.getLogger(AutoTestCaseFromFile.class);//AutoTestCaseFromFile.class打日志
 	
 	/**
 	 * 按模块ID 执行测试用例
@@ -42,11 +42,15 @@ public class AutoTestCaseFromFile {
 	public void testByModuleId(AppiumDriver driver, String moduleId) throws InterruptedException, BiffException, IOException
 	{ 
 
-		final String excelFilePath = Config.getInstance().getCfg("filePath");
-		final String sheetName =  Config.getInstance().getCfg("My");
+		final String excelFilePath = Config.getInstance().getCfg("filePath");//getCfg()中"filePath"为fileName（配置文件）中的key，
+																			//得到的是value值，为android_testcase3_3.xls
+		final String sheetName =  Config.getInstance().getCfg("My");//同上，得到value值，为\u6211
 		
-		log.log("filePath = " + excelFilePath + "  sheetName = " + sheetName);
+		log.log("filePath = " + excelFilePath + "  sheetName = " + sheetName);//日志记录
 		
+		//
+		// readExcelToMap
+		//
 		HashMap<Integer, List<String>> map = excelReader.readExcelToMap(excelFilePath, sheetName);
 		if(map != null && map.size() > 0){
 			
@@ -56,7 +60,6 @@ public class AutoTestCaseFromFile {
 			//筛选编号为 moduleId 的行,并生成 Action
 			List<ActionWrapper> actions = convertMap2ListActions(map, moduleId, mapping, driver);
 			//执行动作，并保存执行结果
-			
 			HSSFWorkbook workBook = excelReader.getWorkBook(excelFilePath);
 			try{
 				runAllActions(actions, workBook.getSheet(sheetName));
@@ -80,8 +83,8 @@ public class AutoTestCaseFromFile {
 		
 		List<ActionWrapper> actions = new ArrayList<>();
 		
+		//Q map指的是哪个方法？
 		final int endRows = map.size();
-		
 		final int testCaseNoIndex = mapping.testCaseNoIndex();
 		if(testCaseNoIndex == -1){
 			throw new RuntimeException("未找到 [测试用例编号] 列的索引！  ");

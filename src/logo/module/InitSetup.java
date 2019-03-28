@@ -3,7 +3,6 @@
  */
 package logo.module;
 
-import java.io.File;
 import java.net.MalformedURLException;
 
 import org.openqa.selenium.remote.CapabilityType;
@@ -30,8 +29,6 @@ public class InitSetup
 			capabilities.setCapability("noReset", true);
 		} else if (Config.CONFIG_FILE.equals("ios_config.properties"))
 		{
-			final File appDir = new File(System.getProperty("user.dir"), "app");
-			final File app = new File(appDir, Config.getInstance().getCfg("appDir"));                             
 			capabilities.setCapability("platformVersion", Config.getInstance().getCfg("platformVersion"));        
 			capabilities.setCapability("platformName", Config.getInstance().getCfg("platformName"));              
 			capabilities.setCapability("deviceName", Config.getInstance().getCfg("deviceName"));                  
