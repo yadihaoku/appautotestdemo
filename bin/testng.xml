@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite" parallel="false">
-  <test name="app_AutoLogin_Test">
-    <classes> 
-        <class name="logo.test.AutoLoginTest"/>
-            <methods preserver-order="true">
-                <include name="My_Login_001" />   
-            </methods>                                                                               
-    </classes>
-  </test> 
- 
-</suite> <!-- Suite -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false" >
+	<!-- 在  beforeSuit 注解中使用的参数，必须定义在 suite 中 -->
+	<parameter name="hubUrl" value="http://127.0.0.1:4723/wd/hub" />
+	<listeners>
+		<listener
+			class-name="com.hxj.lear.listener.ScreenShotListener" />
+	</listeners>
+
+	<test preserve-order="true" name="app_AutoLogin_Test">
+		<classes>
+			<class name="com.hxj.lear.test.Driver" />
+			<class name="com.hxj.lear.test.AutoTest">
+				<parameter name="moduleId" value="My_Login_001" />
+				<methods >
+					<include name="runTestCase" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>
+<!-- Suite -->

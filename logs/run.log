@@ -1,267 +1,67 @@
-2018-12-02 15:02:21,684 DEBUG main main(line:353)rowNum=15
-2018-12-02 15:02:21,686 DEBUG main main(line:354)phyRowNum=16
-2018-12-02 15:02:21,686 DEBUG main main(line:356)rowCotent=测试用例编号
-2018-12-02 15:02:21,687 DEBUG main main(line:357)rowCotent=My_Login_001
-2018-12-02 15:02:21,687 DEBUG main main(line:359)row1 physical columns=11
-2018-12-02 15:02:21,687 DEBUG main main(line:360)row1 last columns=11
-2018-12-02 15:03:25,947 INFO main log(line:48)rowNum=15
-2018-12-02 20:57:44,565 INFO main log(line:48)filePath = android_testcase3_3.xls  sheetName = 我
-2018-12-02 20:58:48,601 INFO main log(line:48)filePath = android_testcase3_3.xls  sheetName = 我
-2018-12-02 21:02:35,009 INFO main log(line:48)filePath = android_testcase3_3.xls  sheetName = 我
-2018-12-02 21:03:47,282 INFO main log(line:48)filePath = android_testcase3_3.xls  sheetName = 我
-2018-12-02 21:10:24,639 INFO main log(line:48)filePath = android_testcase3_3.xls  sheetName = 我
-2018-12-02 21:10:24,661 INFO main log(line:48)byId登录
-2018-12-02 21:15:02,601 INFO main log(line:48)filePath = android_testcase3_3.xls  sheetName = 我
-2018-12-02 21:15:02,613 INFO main log(line:48)byId登录
-2018-12-02 21:19:51,749 INFO main log(line:48)filePath = android_testcase3_3.xls  sheetName = 我
-2018-12-02 21:19:51,755 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.name, 登录, click, , , , ]
-2018-12-02 21:19:51,760 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－首页, By.id, com.test.life:id/phone_edit1, sendkeys, 13798359580, , , ]
-2018-12-02 21:19:51,760 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－用户名文本框, By.id, com.test.life:id/password_edit1, sendkeys, test123456, , , ]
-2018-12-02 21:19:51,761 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－登录按钮, By.id, com.test.life:id/login_btn, click, , , , ]
-2018-12-02 21:19:51,761 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-007, 我的－返回, By.name, 我, click, , , 10000, ]
-2018-12-02 21:19:51,762 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.name, 首页, click, , , , ]
-2018-12-02 21:19:51,762 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－商品管理, By.name, 商品管理, click, , , , ]
-2018-12-02 21:19:51,763 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-003, 我的－历史商品, By.name, 历史商品, click, , , , ]
-2018-12-02 21:19:51,763 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-004, 我的－分类, By.name, 分类, click, , , , ]
-2018-12-02 21:19:51,764 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－销售中, By.name, 销售中, click, , , 8000, ]
-2018-12-02 21:19:51,764 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－向下滑动, By.id, com.test.life:id/layout, DownPage, , , 8000, ]
-2018-12-02 21:19:51,772 INFO main log(line:48)byId登录
-2018-12-02 21:35:04,545 INFO main log(line:48)filePath = android_testcase3_3.xls  sheetName = 我
-2018-12-02 21:35:04,562 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.name, 登录, click, , , , ]
-2018-12-02 21:35:04,563 INFO main log(line:48)locationMode = By.name selector = 登录
-2018-12-02 21:35:04,565 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－首页, By.id, com.test.life:id/phone_edit1, sendkeys, 13798359580, , , ]
-2018-12-02 21:35:04,566 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/phone_edit1
-2018-12-02 21:35:04,566 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－用户名文本框, By.id, com.test.life:id/password_edit1, sendkeys, test123456, , , ]
-2018-12-02 21:35:04,567 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/password_edit1
-2018-12-02 21:35:04,567 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－登录按钮, By.id, com.test.life:id/login_btn, click, , , , ]
-2018-12-02 21:35:04,567 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/login_btn
-2018-12-02 21:35:04,568 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-007, 我的－返回, By.name, 我, click, , , 10000, ]
-2018-12-02 21:35:04,568 INFO main log(line:48)locationMode = By.name selector = 我
-2018-12-02 21:35:04,569 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.name, 首页, click, , , , ]
-2018-12-02 21:35:04,569 INFO main log(line:48)locationMode = By.name selector = 首页
-2018-12-02 21:35:04,569 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－商品管理, By.name, 商品管理, click, , , , ]
-2018-12-02 21:35:04,570 INFO main log(line:48)locationMode = By.name selector = 商品管理
-2018-12-02 21:35:04,570 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-003, 我的－历史商品, By.name, 历史商品, click, , , , ]
-2018-12-02 21:35:04,570 INFO main log(line:48)locationMode = By.name selector = 历史商品
-2018-12-02 21:35:04,571 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-004, 我的－分类, By.name, 分类, click, , , , ]
-2018-12-02 21:35:04,571 INFO main log(line:48)locationMode = By.name selector = 分类
-2018-12-02 21:35:04,571 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－销售中, By.name, 销售中, click, , , 8000, ]
-2018-12-02 21:35:04,572 INFO main log(line:48)locationMode = By.name selector = 销售中
-2018-12-02 21:35:04,572 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－向下滑动, By.id, com.test.life:id/layout, DownPage, , , 8000, ]
-2018-12-02 21:35:04,572 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/layout
-2018-12-02 21:35:04,575 INFO main log(line:48)byId登录
-2018-12-02 21:37:11,331 INFO main log(line:48)filePath = android_testcase3_3.xls  sheetName = 我
-2018-12-02 21:37:11,345 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.name, 登录, click, , , , ]
-2018-12-02 21:37:11,346 INFO main log(line:48)locationMode = By.name selector = 登录
-2018-12-02 21:37:11,348 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－首页, By.id, com.test.life:id/phone_edit1, sendkeys, 13798359580, , , ]
-2018-12-02 21:37:11,349 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/phone_edit1
-2018-12-02 21:37:11,350 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－用户名文本框, By.id, com.test.life:id/password_edit1, sendkeys, test123456, , , ]
-2018-12-02 21:37:11,351 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/password_edit1
-2018-12-02 21:37:11,351 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－登录按钮, By.id, com.test.life:id/login_btn, click, , , , ]
-2018-12-02 21:37:11,352 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/login_btn
-2018-12-02 21:37:11,352 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-007, 我的－返回, By.name, 我, click, , , 10000, ]
-2018-12-02 21:37:11,352 INFO main log(line:48)locationMode = By.name selector = 我
-2018-12-02 21:37:11,353 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.name, 首页, click, , , , ]
-2018-12-02 21:37:11,354 INFO main log(line:48)locationMode = By.name selector = 首页
-2018-12-02 21:37:11,354 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－商品管理, By.name, 商品管理, click, , , , ]
-2018-12-02 21:37:11,354 INFO main log(line:48)locationMode = By.name selector = 商品管理
-2018-12-02 21:37:11,355 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-003, 我的－历史商品, By.name, 历史商品, click, , , , ]
-2018-12-02 21:37:11,355 INFO main log(line:48)locationMode = By.name selector = 历史商品
-2018-12-02 21:37:11,356 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-004, 我的－分类, By.name, 分类, click, , , , ]
-2018-12-02 21:37:11,356 INFO main log(line:48)locationMode = By.name selector = 分类
-2018-12-02 21:37:11,356 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－销售中, By.name, 销售中, click, , , 8000, ]
-2018-12-02 21:37:11,357 INFO main log(line:48)locationMode = By.name selector = 销售中
-2018-12-02 21:37:11,357 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－向下滑动, By.id, com.test.life:id/layout, DownPage, , , 8000, ]
-2018-12-02 21:37:11,357 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/layout
-2018-12-02 21:37:11,360 INFO main log(line:48)byId登录
-2018-12-02 21:40:26,884 INFO main log(line:48)filePath = android_testcase3_3.xls  sheetName = 我
-2018-12-02 21:40:26,890 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.name, 登录, click, , , , ]
-2018-12-02 21:40:26,891 INFO main log(line:48)locationMode = By.name selector = 登录
-2018-12-02 21:40:26,895 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－首页, By.id, com.test.life:id/phone_edit1, sendkeys, 13798359580, , , ]
-2018-12-02 21:40:26,895 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/phone_edit1
-2018-12-02 21:40:26,896 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－用户名文本框, By.id, com.test.life:id/password_edit1, sendkeys, test123456, , , ]
-2018-12-02 21:40:26,896 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/password_edit1
-2018-12-02 21:40:26,897 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－登录按钮, By.id, com.test.life:id/login_btn, click, , , , ]
-2018-12-02 21:40:26,897 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/login_btn
-2018-12-02 21:40:26,897 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-007, 我的－返回, By.name, 我, click, , , 10000, ]
-2018-12-02 21:40:26,898 INFO main log(line:48)locationMode = By.name selector = 我
-2018-12-02 21:40:26,900 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.name, 首页, click, , , , ]
-2018-12-02 21:40:26,900 INFO main log(line:48)locationMode = By.name selector = 首页
-2018-12-02 21:40:26,901 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－商品管理, By.name, 商品管理, click, , , , ]
-2018-12-02 21:40:26,901 INFO main log(line:48)locationMode = By.name selector = 商品管理
-2018-12-02 21:40:26,901 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-003, 我的－历史商品, By.name, 历史商品, click, , , , ]
-2018-12-02 21:40:26,902 INFO main log(line:48)locationMode = By.name selector = 历史商品
-2018-12-02 21:40:26,902 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-004, 我的－分类, By.name, 分类, click, , , , ]
-2018-12-02 21:40:26,903 INFO main log(line:48)locationMode = By.name selector = 分类
-2018-12-02 21:40:26,903 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－销售中, By.name, 销售中, click, , , 8000, ]
-2018-12-02 21:40:26,903 INFO main log(line:48)locationMode = By.name selector = 销售中
-2018-12-02 21:40:26,904 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－向下滑动, By.id, com.test.life:id/layout, DownPage, , , 8000, ]
-2018-12-02 21:40:26,904 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/layout
-2018-12-02 21:40:26,907 INFO main log(line:48)byName登录
-2018-12-02 21:50:27,753 INFO main log(line:48)filePath = android_testcase3_3.xls  sheetName = 我
-2018-12-02 21:50:27,758 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.id, com.test.life:id/login_btn, click, , , , ]
-2018-12-02 21:50:27,759 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/login_btn
-2018-12-02 21:50:27,761 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－首页, By.id, com.test.life:id/phone_edit1, sendkeys, 13798359580, , , ]
-2018-12-02 21:50:27,761 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/phone_edit1
-2018-12-02 21:50:27,762 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－用户名文本框, By.id, com.test.life:id/password_edit1, sendkeys, test123456, , , ]
-2018-12-02 21:50:27,762 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/password_edit1
-2018-12-02 21:50:27,763 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－登录按钮, By.id, com.test.life:id/login_btn, click, , , , ]
-2018-12-02 21:50:27,763 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/login_btn
-2018-12-02 21:50:27,763 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-007, 我的－返回, By.name, 我, click, , , 10000, ]
-2018-12-02 21:50:27,764 INFO main log(line:48)locationMode = By.name selector = 我
-2018-12-02 21:50:27,765 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.name, 首页, click, , , , ]
-2018-12-02 21:50:27,765 INFO main log(line:48)locationMode = By.name selector = 首页
-2018-12-02 21:50:27,766 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－商品管理, By.name, 商品管理, click, , , , ]
-2018-12-02 21:50:27,766 INFO main log(line:48)locationMode = By.name selector = 商品管理
-2018-12-02 21:50:27,766 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-003, 我的－历史商品, By.name, 历史商品, click, , , , ]
-2018-12-02 21:50:27,767 INFO main log(line:48)locationMode = By.name selector = 历史商品
-2018-12-02 21:50:27,767 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-004, 我的－分类, By.name, 分类, click, , , , ]
-2018-12-02 21:50:27,767 INFO main log(line:48)locationMode = By.name selector = 分类
-2018-12-02 21:50:27,768 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－销售中, By.name, 销售中, click, , , 8000, ]
-2018-12-02 21:50:27,768 INFO main log(line:48)locationMode = By.name selector = 销售中
-2018-12-02 21:50:27,768 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－向下滑动, By.id, com.test.life:id/layout, DownPage, , , 8000, ]
-2018-12-02 21:50:27,769 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/layout
-2018-12-02 21:50:27,771 INFO main log(line:48)byIdcom.test.life:id/login_btn
-2018-12-02 21:59:22,161 INFO main log(line:48)filePath = android_testcase3_3.xls  sheetName = 我
-2018-12-02 21:59:22,170 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.id, com.test.life:id/login_btn, click, , , , ]
-2018-12-02 21:59:22,170 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/login_btn
-2018-12-02 21:59:22,173 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－首页, By.id, com.test.life:id/phone_edit1, sendkeys, 13798359580, , , ]
-2018-12-02 21:59:22,173 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/phone_edit1
-2018-12-02 21:59:22,173 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－用户名文本框, By.id, com.test.life:id/password_edit1, sendkeys, test123456, , , ]
-2018-12-02 21:59:22,174 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/password_edit1
-2018-12-02 21:59:22,174 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－登录按钮, By.id, com.test.life:id/login_btn, click, , , , ]
-2018-12-02 21:59:22,174 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/login_btn
-2018-12-02 21:59:22,175 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-007, 我的－返回, By.name, 我, click, , , 10000, ]
-2018-12-02 21:59:22,175 INFO main log(line:48)locationMode = By.name selector = 我
-2018-12-02 21:59:22,176 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.name, 首页, click, , , , ]
-2018-12-02 21:59:22,176 INFO main log(line:48)locationMode = By.name selector = 首页
-2018-12-02 21:59:22,176 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－商品管理, By.name, 商品管理, click, , , , ]
-2018-12-02 21:59:22,177 INFO main log(line:48)locationMode = By.name selector = 商品管理
-2018-12-02 21:59:22,177 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-003, 我的－历史商品, By.name, 历史商品, click, , , , ]
-2018-12-02 21:59:22,177 INFO main log(line:48)locationMode = By.name selector = 历史商品
-2018-12-02 21:59:22,178 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-004, 我的－分类, By.name, 分类, click, , , , ]
-2018-12-02 21:59:22,178 INFO main log(line:48)locationMode = By.name selector = 分类
-2018-12-02 21:59:22,179 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－销售中, By.name, 销售中, click, , , 8000, ]
-2018-12-02 21:59:22,183 INFO main log(line:48)locationMode = By.name selector = 销售中
-2018-12-02 21:59:22,184 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－向下滑动, By.id, com.test.life:id/layout, DownPage, , , 8000, ]
-2018-12-02 21:59:22,184 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/layout
-2018-12-02 21:59:22,186 INFO main log(line:48)byIdcom.test.life:id/login_btn
-2018-12-02 21:59:25,327 INFO main log(line:48)byIdcom.test.life:id/phone_edit1
-2018-12-02 21:59:34,010 INFO main log(line:48)byIdcom.test.life:id/password_edit1
-2018-12-02 21:59:43,542 INFO main log(line:48)byIdcom.test.life:id/login_btn
-2018-12-02 21:59:45,868 INFO main log(line:48)byName我
-2018-12-02 22:12:04,868 INFO main log(line:48)filePath = android_testcase3_3.xls  sheetName = 我
-2018-12-02 22:12:04,881 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.id, com.test.life:id/login_btn, click, , , , ]
-2018-12-02 22:12:04,882 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/login_btn
-2018-12-02 22:12:04,885 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－首页, By.id, com.test.life:id/phone_edit1, sendkeys, 13798359580, , , ]
-2018-12-02 22:12:04,887 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/phone_edit1
-2018-12-02 22:12:04,887 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－用户名文本框, By.id, com.test.life:id/password_edit1, sendkeys, test123456, , , ]
-2018-12-02 22:12:04,887 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/password_edit1
-2018-12-02 22:12:04,888 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－登录按钮, By.id, com.test.life:id/login_btn, click, , , , ]
-2018-12-02 22:12:04,888 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/login_btn
-2018-12-02 22:12:04,889 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-007, 我的－返回, By.name, 我, click, , , 10000, ]
-2018-12-02 22:12:04,889 INFO main log(line:48)locationMode = By.name selector = 我
-2018-12-02 22:12:04,890 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.name, 首页, click, , , , ]
-2018-12-02 22:12:04,890 INFO main log(line:48)locationMode = By.name selector = 首页
-2018-12-02 22:12:04,890 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－商品管理, By.name, 商品管理, click, , , , ]
-2018-12-02 22:12:04,890 INFO main log(line:48)locationMode = By.name selector = 商品管理
-2018-12-02 22:12:04,891 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-003, 我的－历史商品, By.name, 历史商品, click, , , , ]
-2018-12-02 22:12:04,891 INFO main log(line:48)locationMode = By.name selector = 历史商品
-2018-12-02 22:12:04,891 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-004, 我的－分类, By.name, 分类, click, , , , ]
-2018-12-02 22:12:04,892 INFO main log(line:48)locationMode = By.name selector = 分类
-2018-12-02 22:12:04,892 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－销售中, By.name, 销售中, click, , , 8000, ]
-2018-12-02 22:12:04,892 INFO main log(line:48)locationMode = By.name selector = 销售中
-2018-12-02 22:12:04,893 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－向下滑动, By.id, com.test.life:id/layout, DownPage, , , 8000, ]
-2018-12-02 22:12:04,893 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/layout
-2018-12-02 22:12:04,895 INFO main log(line:48)byIdcom.test.life:id/login_btn
-2018-12-02 22:12:10,588 INFO main log(line:48)byIdcom.test.life:id/phone_edit1
-2018-12-02 22:12:19,615 INFO main log(line:48)byIdcom.test.life:id/password_edit1
-2018-12-02 22:12:26,219 INFO main log(line:48)byIdcom.test.life:id/login_btn
-2018-12-02 22:12:28,709 INFO main log(line:48)byName我
-2018-12-02 22:38:26,475 INFO main log(line:48)filePath = android_testcase3_3.xls  sheetName = 我
-2018-12-02 22:38:26,482 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.id, com.test.life:id/login_btn, click, , , , ]
-2018-12-02 22:38:26,483 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/login_btn
-2018-12-02 22:38:26,485 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－首页, By.id, com.test.life:id/phone_edit1, sendkeys, 13798359580, , , ]
-2018-12-02 22:38:26,486 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/phone_edit1
-2018-12-02 22:38:26,486 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－用户名文本框, By.id, com.test.life:id/password_edit1, sendkeys, test123456, , , ]
-2018-12-02 22:38:26,486 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/password_edit1
-2018-12-02 22:38:26,487 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－登录按钮, By.id, com.test.life:id/login_btn, click, , , , ]
-2018-12-02 22:38:26,487 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/login_btn
-2018-12-02 22:38:26,487 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-007, 我的－返回, By.name, 我, click, , , 10000, ]
-2018-12-02 22:38:26,488 INFO main log(line:48)locationMode = By.name selector = 我
-2018-12-02 22:38:26,488 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.name, 首页, click, , , , ]
-2018-12-02 22:38:26,489 INFO main log(line:48)locationMode = By.name selector = 首页
-2018-12-02 22:38:26,489 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－商品管理, By.name, 商品管理, click, , , , ]
-2018-12-02 22:38:26,490 INFO main log(line:48)locationMode = By.name selector = 商品管理
-2018-12-02 22:38:26,490 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-003, 我的－历史商品, By.name, 历史商品, click, , , , ]
-2018-12-02 22:38:26,490 INFO main log(line:48)locationMode = By.name selector = 历史商品
-2018-12-02 22:38:26,491 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-004, 我的－分类, By.name, 分类, click, , , , ]
-2018-12-02 22:38:26,492 INFO main log(line:48)locationMode = By.name selector = 分类
-2018-12-02 22:38:26,492 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－销售中, By.name, 销售中, click, , , 8000, ]
-2018-12-02 22:38:26,492 INFO main log(line:48)locationMode = By.name selector = 销售中
-2018-12-02 22:38:26,493 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－向下滑动, By.id, com.test.life:id/layout, DownPage, , , 8000, ]
-2018-12-02 22:38:26,493 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/layout
-2018-12-02 22:38:26,495 INFO main log(line:48)byIdcom.test.life:id/login_btn
-2018-12-02 22:38:30,324 INFO main log(line:48)byIdcom.test.life:id/phone_edit1
-2018-12-02 22:38:38,081 INFO main log(line:48)byIdcom.test.life:id/password_edit1
-2018-12-02 22:38:47,148 INFO main log(line:48)byIdcom.test.life:id/login_btn
-2018-12-02 22:38:49,723 INFO main log(line:48)byName我
-2018-12-02 22:51:17,332 INFO main log(line:48)filePath = android_testcase3_3.xls  sheetName = 我
-2018-12-02 22:51:17,338 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.id, com.test.life:id/login_btn, click, , , , ]
-2018-12-02 22:51:17,340 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/login_btn
-2018-12-02 22:51:17,342 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－首页, By.id, com.test.life:id/phone_edit1, sendkeys, 13798359580, , , ]
-2018-12-02 22:51:17,343 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/phone_edit1
-2018-12-02 22:51:17,344 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－用户名文本框, By.id, com.test.life:id/password_edit1, sendkeys, test123456, , , ]
-2018-12-02 22:51:17,344 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/password_edit1
-2018-12-02 22:51:17,344 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－登录按钮, By.id, com.test.life:id/login_btn, click, , , , ]
-2018-12-02 22:51:17,345 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/login_btn
-2018-12-02 22:51:17,345 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-007, 我的－返回, By.name, 我, click, , , 10000, ]
-2018-12-02 22:51:17,345 INFO main log(line:48)locationMode = By.name selector = 我
-2018-12-02 22:51:17,346 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.name, 首页, click, , , , ]
-2018-12-02 22:51:17,346 INFO main log(line:48)locationMode = By.name selector = 首页
-2018-12-02 22:51:17,347 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－商品管理, By.name, 商品管理, click, , , , ]
-2018-12-02 22:51:17,347 INFO main log(line:48)locationMode = By.name selector = 商品管理
-2018-12-02 22:51:17,347 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-003, 我的－历史商品, By.name, 历史商品, click, , , , ]
-2018-12-02 22:51:17,348 INFO main log(line:48)locationMode = By.name selector = 历史商品
-2018-12-02 22:51:17,349 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-004, 我的－分类, By.name, 分类, click, , , , ]
-2018-12-02 22:51:17,349 INFO main log(line:48)locationMode = By.name selector = 分类
-2018-12-02 22:51:17,349 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－销售中, By.name, 销售中, click, , , 8000, ]
-2018-12-02 22:51:17,352 INFO main log(line:48)locationMode = By.name selector = 销售中
-2018-12-02 22:51:17,352 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－向下滑动, By.id, com.test.life:id/layout, DownPage, , , 8000, ]
-2018-12-02 22:51:17,353 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/layout
-2018-12-02 22:51:17,356 INFO main log(line:48)byIdcom.test.life:id/login_btn
-2018-12-02 22:51:18,502 INFO main log(line:48)byIdcom.test.life:id/phone_edit1
-2018-12-02 22:51:28,313 INFO main log(line:48)byIdcom.test.life:id/password_edit1
-2018-12-02 22:51:38,672 INFO main log(line:48)byIdcom.test.life:id/login_btn
-2018-12-02 22:51:40,013 INFO main log(line:48)byName我
-2018-12-02 22:58:10,240 INFO main log(line:48)filePath = android_testcase3_3.xls  sheetName = 我
-2018-12-02 22:58:10,249 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.id, com.test.life:id/login_btn, click, , , , ]
-2018-12-02 22:58:10,250 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/login_btn
-2018-12-02 22:58:10,252 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－首页, By.id, com.test.life:id/phone_edit1, sendkeys, 13798359580, , , ]
-2018-12-02 22:58:10,253 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/phone_edit1
-2018-12-02 22:58:10,254 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－用户名文本框, By.id, com.test.life:id/password_edit1, sendkeys, test123456, , , ]
-2018-12-02 22:58:10,255 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/password_edit1
-2018-12-02 22:58:10,257 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－登录按钮, By.id, com.test.life:id/login_btn, click, , , , ]
-2018-12-02 22:58:10,258 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/login_btn
-2018-12-02 22:58:10,259 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-001, 我的－首页, By.name, 首页, click, , , , ]
-2018-12-02 22:58:10,261 INFO main log(line:48)locationMode = By.name selector = 首页
-2018-12-02 22:58:10,262 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-002, 我的－商品管理, By.name, 商品管理, click, , , , ]
-2018-12-02 22:58:10,262 INFO main log(line:48)locationMode = By.name selector = 商品管理
-2018-12-02 22:58:10,263 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-003, 我的－历史商品, By.name, 历史商品, click, , , , ]
-2018-12-02 22:58:10,263 INFO main log(line:48)locationMode = By.name selector = 历史商品
-2018-12-02 22:58:10,263 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-004, 我的－分类, By.name, 分类, click, , , , ]
-2018-12-02 22:58:10,264 INFO main log(line:48)locationMode = By.name selector = 分类
-2018-12-02 22:58:10,264 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-005, 我的－销售中, By.name, 销售中, click, , , 8000, ]
-2018-12-02 22:58:10,264 INFO main log(line:48)locationMode = By.name selector = 销售中
-2018-12-02 22:58:10,265 INFO main log(line:48)parse2Action[My_Login_001, 正常登录, TS-006, 我的－向下滑动, By.id, com.test.life:id/layout, DownPage, , , 8000, ]
-2018-12-02 22:58:10,266 INFO main log(line:48)locationMode = By.id selector = com.test.life:id/layout
-2018-12-02 22:58:10,268 INFO main log(line:48)byIdcom.test.life:id/login_btn
-2018-12-02 22:58:11,379 INFO main log(line:48)byIdcom.test.life:id/phone_edit1
-2018-12-02 22:58:21,341 INFO main log(line:48)byIdcom.test.life:id/password_edit1
-2018-12-02 22:58:28,327 INFO main log(line:48)byIdcom.test.life:id/login_btn
-2018-12-02 22:58:31,550 INFO main log(line:48)byName首页
-2018-12-02 22:58:37,888 INFO main log(line:48)byName商品管理
-2018-12-02 22:58:39,679 INFO main log(line:48)byName历史商品
-2018-12-02 22:58:43,647 INFO main log(line:48)byName分类
-2018-12-02 22:58:46,128 INFO main log(line:48)byName销售中
-2018-12-02 22:58:55,698 INFO main log(line:48)byIdcom.test.life:id/layout
+2019-05-26 15:28:16,361 INFO main log(line:49)filePath = android_testcase3_3.xls  sheetName = 我
+2019-05-26 15:28:16,626 INFO main log(line:49)total data ==>8
+2019-05-26 15:30:40,368 INFO main log(line:49)filePath = android_testcase3_3.xls  sheetName = 我
+2019-05-26 15:30:40,542 INFO main log(line:49)total data ==>8
+2019-05-26 15:30:40,542 INFO main log(line:49)parse2Action[My_Login_001, 正常登录, TS-003, 我的, xpath, /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.View[2]/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout/android.support.v4.view.ViewPager/android.widget.FrameLayout[1]/android.support.v7.widget.RecyclerView/android.view.View[4]/android.widget.FrameLayout/android.widget.ImageView, click, , , , pass, 0]
+2019-05-26 15:30:40,543 INFO main log(line:49)locationMode = xpath selector = /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.View[2]/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout/android.support.v4.view.ViewPager/android.widget.FrameLayout[1]/android.support.v7.widget.RecyclerView/android.view.View[4]/android.widget.FrameLayout/android.widget.ImageView
+2019-05-26 15:30:40,547 INFO main log(line:49)parse2Action[My_Login_001, 登录界面, TS-003, , name, 马上登录, click, , , , , 0]
+2019-05-26 15:30:40,547 INFO main log(line:49)locationMode = name selector = 马上登录
+2019-05-26 15:30:40,548 INFO main log(line:49)parse2Action[My_Login_001, 输入用户名, TS-003, , id, com.jd.paipai.login_plugin:id/et_user_name, sendKeys, honey_3311, , , no execute, 0]
+2019-05-26 15:30:40,548 INFO main log(line:49)locationMode = id selector = com.jd.paipai.login_plugin:id/et_user_name
+2019-05-26 15:30:40,549 INFO main log(line:49)parse2Action[My_Login_001, 输入密码, TS-003, , id, com.jd.paipai.login_plugin:id/et_user_password, sendKeys, Ykt3a*sf, , , no execute, 0]
+2019-05-26 15:30:40,549 INFO main log(line:49)locationMode = id selector = com.jd.paipai.login_plugin:id/et_user_password
+2019-05-26 15:30:40,550 INFO main log(line:49)parse2Action[My_Login_001, 登录, TS-003, , id, com.jd.paipai.login_plugin:id/tv_bth, click, , , , no execute, 0]
+2019-05-26 15:30:40,550 INFO main log(line:49)locationMode = id selector = com.jd.paipai.login_plugin:id/tv_bth
+2019-05-26 15:30:40,550 INFO main log(line:49)total action ==> 5
+2019-05-26 15:30:40,562 INFO main log(line:49)byXpath/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.View[2]/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout/android.support.v4.view.ViewPager/android.widget.FrameLayout[1]/android.support.v7.widget.RecyclerView/android.view.View[4]/android.widget.FrameLayout/android.widget.ImageView
+2019-05-26 15:31:19,421 INFO main log(line:49)filePath = android_testcase3_3.xls  sheetName = 我
+2019-05-26 15:31:19,648 INFO main log(line:49)total data ==>8
+2019-05-26 15:31:19,648 INFO main log(line:49)parse2Action[My_Login_001, 正常登录, TS-003, 我的, xpath, /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.View[2]/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout/android.support.v4.view.ViewPager/android.widget.FrameLayout[1]/android.support.v7.widget.RecyclerView/android.view.View[4]/android.widget.FrameLayout/android.widget.ImageView, click, , , , pass, 0]
+2019-05-26 15:31:19,649 INFO main log(line:49)locationMode = xpath selector = /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.View[2]/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout/android.support.v4.view.ViewPager/android.widget.FrameLayout[1]/android.support.v7.widget.RecyclerView/android.view.View[4]/android.widget.FrameLayout/android.widget.ImageView
+2019-05-26 15:31:19,655 INFO main log(line:49)parse2Action[My_Login_001, 登录界面, TS-003, , name, 马上登录, click, , , , , 0]
+2019-05-26 15:31:19,656 INFO main log(line:49)locationMode = name selector = 马上登录
+2019-05-26 15:31:19,657 INFO main log(line:49)parse2Action[My_Login_001, 输入用户名, TS-003, , id, com.jd.paipai.login_plugin:id/et_user_name, sendKeys, honey_3311, , , no execute, 0]
+2019-05-26 15:31:19,657 INFO main log(line:49)locationMode = id selector = com.jd.paipai.login_plugin:id/et_user_name
+2019-05-26 15:31:19,657 INFO main log(line:49)parse2Action[My_Login_001, 输入密码, TS-003, , id, com.jd.paipai.login_plugin:id/et_user_password, sendKeys, Ykt3a*sf, , , no execute, 0]
+2019-05-26 15:31:19,658 INFO main log(line:49)locationMode = id selector = com.jd.paipai.login_plugin:id/et_user_password
+2019-05-26 15:31:19,658 INFO main log(line:49)parse2Action[My_Login_001, 登录, TS-003, , id, com.jd.paipai.login_plugin:id/tv_bth, click, , , , no execute, 0]
+2019-05-26 15:31:19,658 INFO main log(line:49)locationMode = id selector = com.jd.paipai.login_plugin:id/tv_bth
+2019-05-26 15:31:19,659 INFO main log(line:49)total action ==> 5
+2019-05-26 15:31:19,667 INFO main log(line:49)byXpath/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout/android.widget.RelativeLayout/android.view.View[2]/android.support.v7.widget.RecyclerView/android.widget.RelativeLayout/android.support.v4.view.ViewPager/android.widget.FrameLayout[1]/android.support.v7.widget.RecyclerView/android.view.View[4]/android.widget.FrameLayout/android.widget.ImageView
+2019-05-26 15:38:05,790 INFO main log(line:49)filePath = android_testcase3_3.xls  sheetName = 我
+2019-05-26 15:38:05,940 INFO main log(line:49)total data ==>8
+2019-05-26 15:38:05,941 INFO main log(line:49)parse2Action[My_Login_001, 正常登录, TS-003, 我的, xpath, /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[5], click, , , , , 0]
+2019-05-26 15:38:05,941 INFO main log(line:49)locationMode = xpath selector = /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[5]
+2019-05-26 15:38:05,944 INFO main log(line:49)parse2Action[My_Login_001, 登录界面, TS-003, , name, 马上登录, click, , , , no execute, 0]
+2019-05-26 15:38:05,944 INFO main log(line:49)locationMode = name selector = 马上登录
+2019-05-26 15:38:05,945 INFO main log(line:49)parse2Action[My_Login_001, 输入用户名, TS-003, , id, com.jd.paipai.login_plugin:id/et_user_name, sendKeys, honey_3311, , , no execute, 0]
+2019-05-26 15:38:05,945 INFO main log(line:49)locationMode = id selector = com.jd.paipai.login_plugin:id/et_user_name
+2019-05-26 15:38:05,945 INFO main log(line:49)parse2Action[My_Login_001, 输入密码, TS-003, , id, com.jd.paipai.login_plugin:id/et_user_password, sendKeys, Ykt3a*sf, , , no execute, 0]
+2019-05-26 15:38:05,946 INFO main log(line:49)locationMode = id selector = com.jd.paipai.login_plugin:id/et_user_password
+2019-05-26 15:38:05,946 INFO main log(line:49)parse2Action[My_Login_001, 登录, TS-003, , id, com.jd.paipai.login_plugin:id/tv_bth, click, , , , no execute, 0]
+2019-05-26 15:38:05,946 INFO main log(line:49)locationMode = id selector = com.jd.paipai.login_plugin:id/tv_bth
+2019-05-26 15:38:05,946 INFO main log(line:49)total action ==> 5
+2019-05-26 15:38:05,951 INFO main log(line:49)byXpath/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[5]
+2019-05-26 15:38:12,511 INFO main log(line:49)byXpathandroid.widget.LinearLayout
+2019-05-26 15:38:15,628 INFO main log(line:49)byName马上登录
+2019-05-26 15:40:49,860 INFO main log(line:49)filePath = android_testcase3_3.xls  sheetName = 我
+2019-05-26 15:40:50,029 INFO main log(line:49)total data ==>8
+2019-05-26 15:40:50,030 INFO main log(line:49)parse2Action[My_Login_001, 正常登录, TS-003, 我的, xpath, /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[5], click, , , , pass, 0]
+2019-05-26 15:40:50,030 INFO main log(line:49)locationMode = xpath selector = /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[5]
+2019-05-26 15:40:50,033 INFO main log(line:49)total action ==> 1
+2019-05-26 15:40:50,173 INFO main log(line:49)byXpath/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[5]
+2019-05-26 15:40:52,011 INFO main log(line:49)byXpathandroid.widget.LinearLayout
+2019-05-26 15:41:20,830 INFO main log(line:49)filePath = android_testcase3_3.xls  sheetName = 我
+2019-05-26 15:41:20,990 INFO main log(line:49)total data ==>8
+2019-05-26 15:41:20,990 INFO main log(line:49)parse2Action[My_Login_001, 正常登录, TS-003, 我的, xpath, /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[5], click, , , , pass, 0]
+2019-05-26 15:41:20,991 INFO main log(line:49)locationMode = xpath selector = /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[5]
+2019-05-26 15:41:20,994 INFO main log(line:49)total action ==> 1
+2019-05-26 15:41:20,999 INFO main log(line:49)byXpath/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[5]
+2019-05-26 15:41:22,666 INFO main log(line:49)byXpathandroid.widget.LinearLayout
+2019-05-26 15:41:57,370 INFO main log(line:49)filePath = android_testcase3_3.xls  sheetName = 我
+2019-05-26 15:41:57,529 INFO main log(line:49)total data ==>8
+2019-05-26 15:41:57,529 INFO main log(line:49)parse2Action[My_Login_001, 正常登录, TS-003, 我的, xpath, /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[5], click, , , , pass, 0]
+2019-05-26 15:41:57,530 INFO main log(line:49)locationMode = xpath selector = /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[5]
+2019-05-26 15:41:57,534 INFO main log(line:49)total action ==> 1
+2019-05-26 15:41:57,544 INFO main log(line:49)byXpath/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.RelativeLayout[1]/android.widget.LinearLayout/android.widget.LinearLayout[5]
+2019-05-26 15:42:00,857 INFO main log(line:49)byXpathandroid.widget.LinearLayout

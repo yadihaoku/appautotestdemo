@@ -74,3 +74,6 @@ local.properties
 *.tar.gz
 *.rar
 
+/target/
+screentshot/
+logs/
