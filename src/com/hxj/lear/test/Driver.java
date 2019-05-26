@@ -23,7 +23,7 @@ public class Driver {
 	public static void beforeSuite(String hubUrl) throws MalformedURLException {
 		SDriver = new AppiumDriver(new URL(hubUrl), InitSetup.InitSetupCFG(new DesiredCapabilities()));
 		
-		//报告正确显示截图
+		//鎶ュ憡姝ｇ‘鏄剧ず鎴浘
 		System.setProperty("org.uncommons.reportng.escape-output", "false"); 
 		
 		assertThat(SDriver).isNotNull();
