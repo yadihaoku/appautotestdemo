@@ -1,6 +1,0 @@
-2016-05-12 17:43:18,742 INFO main <clinit>(line:23)retrycount=3
-2016-05-12 17:43:18,744 INFO main <clinit>(line:24)sourceCodeDir=src
-2016-05-12 17:43:18,745 INFO main <clinit>(line:25)sourceCodeEncoding=UTF-8
-2016-05-12 17:43:44,814 INFO main onTestStart(line:44)My_Login_TC_001 Start
-2016-05-12 17:46:00,687 INFO main onTestSuccess(line:38)My_Login_TC_001 Success
-2016-05-12 17:47:10,546 INFO main onFinish(line:56)PassedTests = My_Login_TC_001

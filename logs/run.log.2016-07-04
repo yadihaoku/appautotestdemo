@@ -1,4 +1,0 @@
-2016-07-04 14:28:17,819 INFO Forwarding quit on session 85cbee37-31ef-4b94-87f2-66b74e82f877 to remote execute(line:93)I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond
-2016-07-04 14:28:17,840 INFO Forwarding quit on session 85cbee37-31ef-4b94-87f2-66b74e82f877 to remote execute(line:106)Retrying request
-2016-07-04 16:16:34,295 INFO Forwarding quit on session 8bc053cf-d852-4c2d-a044-b696c494375e to remote execute(line:93)I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond
-2016-07-04 16:16:34,297 INFO Forwarding quit on session 8bc053cf-d852-4c2d-a044-b696c494375e to remote execute(line:106)Retrying request

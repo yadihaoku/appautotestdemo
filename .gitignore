@@ -75,5 +75,5 @@ local.properties
 *.rar
 
 /target/
-screentshot/
+screenshot/
 logs/

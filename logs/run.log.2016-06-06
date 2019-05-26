@@ -1,2 +1,0 @@
-2016-06-06 10:07:06,916 INFO Forwarding screenshot on session 76cedabd-01e5-4def-9f75-f8d5e6a030fa to remote execute(line:93)I/O exception (java.net.SocketException) caught when processing request: Connection reset
-2016-06-06 10:07:06,919 INFO Forwarding screenshot on session 76cedabd-01e5-4def-9f75-f8d5e6a030fa to remote execute(line:106)Retrying request
