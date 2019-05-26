@@ -13,10 +13,11 @@ import org.testng.annotations.Parameters;
 import com.hxj.lear.config.InitSetup;
 
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidElement;
 
 public class Driver {
 
-	public static AppiumDriver SDriver;
+	public static AppiumDriver<AndroidElement> SDriver;
 
 	@Parameters("hubUrl")
 	@BeforeSuite
@@ -27,7 +28,6 @@ public class Driver {
 		System.setProperty("org.uncommons.reportng.escape-output", "false"); 
 		
 		assertThat(SDriver).isNotNull();
-		
 //		assertThat("").startsWith("hxj");
 	}
 
